@@ -13,7 +13,7 @@ export function MoreStories({ posts }: Props) {
         <hr className="border-gray-500 dark:border-gray-700 my-3" />
       </h2>
       <p className="mb-8 md: tracking-tighter leading-tight">
-        Building science, Project Photos, and Observations about current building trends</p>
+        Building science, Project Photos, and Observations about current building trends in Kalispell, Montana</p>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-5 lg:gap-x-5 gap-y-5 md:gap-y-5 mb-5 auto-rows-fr">
         {posts.map((post) => (
           <PostPreview
