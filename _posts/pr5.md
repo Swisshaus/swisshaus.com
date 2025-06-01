@@ -1,14 +1,14 @@
 ---
 title: "Porter Ranch 5"
 excerpt: "A Minimal Modern Farm House"
-coverImage: "/assets/blog/pr5/pr5-4.JPG"
+coverImage: "/assets/blog/pr5/pr5-4.jpg"
 date: "2024-10-16T05:35:07.322Z"
 category: "Home-Complete"
 author:
   name: Kevin Arnold
   picture: "/assets/blog/authors/kevin.png"
 ogImage:
-  url: "/assets/blog/pr5/pr5-4.JPG"
+  url: "/assets/blog/pr5/pr5-4.jpg"
 ---
 
 
