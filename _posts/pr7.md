@@ -1,14 +1,14 @@
 ---
 title: "Porter Ranch 7"
 excerpt: "New Custom Home build for sale. Breaking ground April 2025"
-coverImage: "/assets/blog/pr7/FooterDrone1.JPG"
+coverImage: "/assets/blog/pr7/pr7-1.jpg"
 date: "2025-04-11T05:35:07.322Z"
 category: "For-Sale"
 author:
   name: Kevin Arnold
   picture: "/assets/blog/authors/kevin.png"
 ogImage:
-  url: "/assets/blog/pr7/FooterDrone1.JPG"
+  url: "/assets/blog/pr7/pr7-1.jpg"
 ---
 ## Property Highlights
 
@@ -21,7 +21,8 @@ ogImage:
 * **Estimated Completion:** December 2025
 
 ![Lot 7 Exploded View of Floorplan](/assets/blog/pr7/ExplodedElevation.gif)
-![Kalispell New Custom Home](/assets/blog/pr7/Foundation.JPG)
+![Kalispell New Custom Home](/assets/blog/pr7/pr7-3.JPG)
+![Kalispell Lower Valley New Home Builder](/assets/blog/pr7/pr7-2.JPG)
 ## Property Overview
 
 This custom home is situated on a beautiful 5-acre lot in the [Porter Ranch Reserve](/posts/porterranch.md). Featuring modern design with timeless craftsmanship, this 4-bedroom, 3.5-bathroom residence offers panoramic mountain views and luxurious living spaces.
@@ -54,8 +55,10 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 
 *Contact our sales team to secure this property during pre-construction for customization options.*
 
-**Renderings**
+**Progress**
 ---
+![Custom Home for sale Kalispell](/assets/blog/pr7/FooterDrone2.JPG)
+![Custom Home for sale Kalispell](/assets/blog/pr7/Foundation.JPG)
 ![Porter Ranch 7 Living Room Render](/assets/blog/pr7/LivingRoomRender.jpg)
 ![Porter Ranch 7 Kitchen Render](/assets/blog/pr7/KitchenRender.jpg)
 ![Porter Ranch 7 Sketch 1](/assets/blog/pr7/sketch.jpeg)

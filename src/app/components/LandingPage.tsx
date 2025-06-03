@@ -19,7 +19,7 @@ type LandingPageProps = {
 
 const defaultSlides: SlideData[] = [
   {
-    image: '/assets/blog/pr7/Foundation.JPG',
+    image: '/assets/blog/pr7/pr7-1.JPG',
     title: 'New Custom Home for Sale in Kalispell',
     subtitle: 'See photos and build progress',
     link: '/posts/pr7',
