@@ -36,7 +36,7 @@ export function StaticHeroSection() {
         <div>
           <div className="text-lg leading-relaxed mb-8 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <p><b>Address:</b> 164 Porter Ranch Rd.</p>
+              <p><b>Address:</b> <a href="https://www.google.com/maps/place/Porter+Rnch+Rd,+Montana+59901/@48.117061,-114.2034646,827m/data=!3m2!1e3!4b1!4m6!3m5!1s0x536652ff4fda7c9f:0x861adbabb2e9e8fc!8m2!3d48.117061!4d-114.2008843!16s%2Fg%2F11w3y0d55v?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">164 Porter Ranch Rd., Kalispell MT 59901</a></p>
               <p><b>Square Footage:</b> 3,489 ft²</p>
               <p><b>Bedrooms:</b> 4</p>
             </div>
