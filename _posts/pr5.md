@@ -48,5 +48,3 @@ ogImage:
 ![High-end bathroom fixtures in custom Kalispell Montana home](/assets/blog/pr5/pr5-11.jpg)
 
 ![Custom tile work in Kalispell luxury home bathroom](/assets/blog/pr5/pr5-12.jpg)
-
-![Finished modern farmhouse by premier Kalispell custom home builder](/assets/blog/pr5/pr5-13.jpg)

@@ -32,13 +32,7 @@ const defaultSlides: SlideData[] = [
     link: '/posts/alpine-meadow',
     linkText: 'See Project'
   },
-  {
-    image: '/assets/blog/porterranch/PRR1.jpg',
-    title: 'Porter Ranch Reserve',
-    subtitle: 'New Custom Home Neighborhood in Lower Valley',
-    link: '/posts/porterranch',
-    linkText: 'View Project'
-  }
+  
 ];
 
 // Static data for mobile screens - just use the first slide
