@@ -83,6 +83,10 @@ export default function PostImageHandler() {
         
       if (isAvatar) return;
       
+      // Skip images that are wrapped in links (should navigate instead of opening lightbox)
+      const isLinkedImage = !!img.closest('a');
+      if (isLinkedImage) return;
+      
       // Proceed only for blog content images
       const isBlogImage = img.src.includes('/assets/blog/') || !!img.closest('article');
       if (!isBlogImage) return;

@@ -45,10 +45,12 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 - Oversized 3-car garage with ample storage and shop space
 - Outdoor living spaces designed for Montana lifestyle
 
+  [More Specifications](/posts/pr7-specs.md)
+
 ## Construction Timeline
 
 **Breaking Ground:** April 2025  
-**Framing Complete:** July 2025  
+**Framing Complete:** June 2025  
 **Exterior Finishes:** August 2025  
 **Interior Finishes:** October 2025  
 **Estimated Completion:** November 2025
