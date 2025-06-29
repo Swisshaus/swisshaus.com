@@ -40,7 +40,6 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 - Master suite with luxury bath and large walk-in closet
 - Private Well
 - Energy-efficient construction and systems
-- ERV Fresh Air - Filtered and Temperature / Humidity Controlled
 - Panoramic mountain views from multiple rooms
 - Oversized 3-car garage with ample storage and shop space
 - Outdoor living spaces designed for Montana lifestyle
