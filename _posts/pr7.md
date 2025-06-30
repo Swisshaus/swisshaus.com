@@ -58,6 +58,9 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 
 **Progress**
 ---
+![New Kalispell Custom Home for Sale](/assets/blog/pr7/Framing-PR7.jpg)
+![New Kalispell Custom Home for Sale Douglas Fir](/assets/blog/pr7/Framing-Entry.jpg)
+![Kalispell Custom Home Neighborhood](/assets/blog/pr7/Drone-Intermediates.jpg)
 ![Custom Home for sale Kalispell](/assets/blog/pr7/FooterDrone2.JPG)
 ![Custom Home for sale Kalispell](/assets/blog/pr7/Foundation.JPG)
 ![Porter Ranch 7 Living Room Render](/assets/blog/pr7/LivingRoomRender.jpg)

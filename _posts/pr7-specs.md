@@ -1,14 +1,14 @@
 ---
 title: "Porter Ranch 7 Specifications"
 excerpt: "Detailed specifications for the Porter Ranch 7 custom home build"
-coverImage: "/assets/blog/pr7/pr7-1.jpg"
+coverImage: "/assets/blog/pr7/Framing-PR7.jpg"
 date: "2025-04-11T05:35:07.322Z"
 category: "Draft"
 author:
   name: Kevin Arnold
   picture: "/assets/blog/authors/kevin.png"
 ogImage:
-  url: "/assets/blog/pr7/pr7-1.jpg"
+  url: "/assets/blog/pr7/Framing-PR7.jpg"
 dynamicCover: true
 sectionImages:
   flooring: "/assets/blog/pr7/LivingRoomRender.jpg"
@@ -34,7 +34,7 @@ sectionImages:
 - **Living Areas, Bedrooms, Laundry, Powder Bath** : Engineered Hardwood
   [Engineered Hardwood - Wide-plank European Oak](https://rewardflooring.com/collections/costa)
 - **Master Bath:** Porcelain Tile - 12"x24" 
-- **Bathrooms 2 & 3:** Porcelain Tile - 12"x12"
+- **Bathrooms 2 & 3:** Porcelain Tile - 12"x24"
 - **Powder Room:** Engineered Hardwood
 
 ## 🍳 Kitchen
@@ -47,6 +47,7 @@ sectionImages:
 - **Dishwasher** - BOSCH
 - **Beverage Under Cabinet Refrigerator** - Zephyr
 - **Range Hood** -Zephyr Range Hood with Makeup Air System
+
 ### Countertops
 
 - **Material:** Granite or Quartzite
@@ -57,7 +58,7 @@ sectionImages:
 
 - **Style:** Shaker Style Custom Cabinets
 - **Wood Species:** Maple or Alder
-- **Finish:** White or Stained
+- **Finish:** Painted or Stained
 - **Hardware:** Black Cabinet Pulls and Knobs
 - **Features:** 
 - Soft-close doors and drawers 
@@ -115,7 +116,7 @@ sectionImages:
 - **Countertop:** Quartz - Caesarstone Pure White
 - **Sink:** Undermount Rectangle - MOEN
 - **Faucets:** MOEN 
-- **Shower:** Walk-in Shower with Glass Door, Linear Shower Drain
+- **Shower:** Walk-in Shower with 3/8" Glass Door, Linear Shower Drain
 - **Tub:** Free Standing Tub
 - **Shower Head:** Rain Shower Head + Hand Shower
 - **Tile:** Porcelain 12"x24" Floor, Mosaic shower floor, 8' Walls in Shower
@@ -130,7 +131,7 @@ sectionImages:
 - **Countertop:** Quartz - Caesarstone Pure White
 - **Sink:** Undermount Rectangle - MOEN
 - **Faucets:** MOEN Single Handle
-- **Shower:** Bath 2 - 60" x 34" Walk-in Shower with Glass Slider Door
+- **Shower:** Bath 2 - 60" x 34" Walk-in Shower with 3/8" Glass Slider Door
 - **Tub:** Bath 3 - 60" x 36" Tub Shower with Glass Slider
 - **Shower Head:** Hand Shower Head
 - **Tile:** Porcelain 12"x24" Floor, 8' Walls in Shower/Tub
@@ -151,11 +152,11 @@ sectionImages:
 
 ## 🧺 Laundry
 ---
-Deep Task sink
-Cabinets Uppers over Washer & Dryer Space
-Lower cabinets
-Granite / Corian Countertops
-Vent Fan
+- Deep Task sink
+- Cabinets Uppers over Washer & Dryer Space
+- Lower cabinets
+- Granite / Quartz Countertops
+- Vent Fan
 
 ## 🚗 Garage
 ---
@@ -177,11 +178,9 @@ Vent Fan
 
 ## 🌿 Exterior & Property
 ---
-**Porches:** Composite Decking Front and Back Porch
-
-**Landscape:** Pre-plumbed & pre-wired, re-seeded lawn grass
-**Front Walkway:** Large Paver Walk
-**Mailbox:** Cluster Mailbox at neighborhood enterance
+- **Porches:** Composite Decking Front and Back Porch
+- **Landscape:** Pre-plumbed & pre-wired, re-seeded lawn grass
+- **Mailbox:** Cluster Mailbox at neighborhood enterance
 ### Driveway
 - **Address:** Illuminated House Numbers
 - 12' wide Paved asphalt driveway
@@ -238,45 +237,45 @@ Vent Fan
 
 ## Systems
 ---
-## 🌡️ HVAC
-Daikin Variable Speed, Variable Capacity Furnace 
-Daikin 4 Ton 20 SEER Variable Capacity Air Heat Pump
+### 🌡️ HVAC
+- **Daikin Furnace:** Variable Speed, Variable Capacity Furnace 
+- Daikin 4 Ton 20 SEER Variable Capacity Air Heat Pump
 
-[Panasonic Whisper](https://iaq.na.panasonic.com/ventilation/fans/whispergreen-select-architectural) Green Architectural Bath Fans
-Bath Fans all can add Humidity, Motion, or WIFI Control
-All bath fans on 60-minute timer switch - Leviton
+- **[Panasonic Whisper](https://iaq.na.panasonic.com/ventilation/fans/whispergreen-select-architectural) Green Architectural Bath Fans**
+- Bath Fans all can add Humidity, Motion, or WIFI Control
+- All bath fans on 60-minute timer switch - Leviton
 
-Humidity Controlled Crawl Space
+- **Humidity Controlled Crawl Space**
 
-Smart Home Ready Air Conditioning
+- **Smart Home Ready Air Conditioning**
 
 ## 🚰 Plumbing
-On Demand Hot Water Heater
-[Ranai Tankless](https://www.rinnai.us/residential/product-detail/rxp199in)
+- On Demand Hot Water Heater
+- [Ranai Tankless](https://www.rinnai.us/residential/product-detail/rxp199in)
 ![Ranai Tankless](https://www.rinnai.us/sites/default/files/2024-02/Hero_Sensei_RX_1080px.jpg)
 - Hot Water Recirculation Loop
 - Pre-Plumbed for Irrigation System
 
-**Private Well**
+### **Private Well**
 - Variable Speed Well Pump
 
-## Propane
+### Propane
 - Leased 1,000 gallon tank (CHS)
 - Plumbed to On Demand Water Heater, Range, BBQ Stub Back Porch, Furnace
 
-## Septic System
+### Septic System
 - Private Septic
 - Alarm Located Inside 
 - Provisioned for ADU (Accessory Dwelling Unit)
-- Failsafe Measures Implemented
-## Foundation
+
+### Foundation
 - +/- 4' Crawl Space
-- Floor joists Above Stems
-4 Light fixtures in Crawlspace
+- Floor joists above Stem Walls
+- 4 Light fixtures in Crawlspace
 - Closed cell foam insulation on Stem walls
 - Vapor barrier on crawlspace floor
 
-## Air Barrier
+### Air Barrier
 - Framing with ZIP System
 ![Zip System](/assets/blog/pr5/pr5-1.JPG)
 - Siga Foundation-to-Framing Sealing
@@ -285,30 +284,33 @@ On Demand Hot Water Heater
 
 ## 📡 Smart Home TV & Internet
 ---
-- CAT 6 Ethernet Cable to all Bedrooms at TV Location + Bed/Office Desk
+- **Home Networking:**
+- Cat 6 Ethernet Cable (10 Gbps) to all Bedrooms at TV Location + Bed/Office Desk
 - RG-6 COAX to all Bedroom TV Locations
 - Power & Ethernet Provision at Fireplace Mantle
 
-**Security Cameras:** Pre-Wired for Security Camera System
+- **Security Cameras:** Pre-Wired for Security Camera System
 
-**Doorbell:** [Reolink Smart 2K+](https://reolink.com/us/product/reolink-video-doorbell-wifi/)
+- **Doorbell:** [Reolink Smart 2K+](https://reolink.com/us/product/reolink-video-doorbell-wifi/)
 
-**Data Panel** - Ready for Ethernet Switch, Modem, Router
+- **Data Panel** - Ready for Ethernet Switch, Modem, Router
 
 - Pre-Wired for Fiber Connection (Nearby @ Sky Ranch - Would need to be run to House)
 - Pre-Wired for Starlink
 
-- Two USB A and C receptacles
+- Two USB-A/C receptacles
 
 ## 🪟Windows and Doors
-**Sliding Glass Door:** Weathershield 8' x 10' Next Generation Sliding Glass door
-**Front Door:** Weathershield Multi-Lock Glass Front Door
+---
+- **Sliding Glass Door:** Weathershield Contemporary Collection - 8' x 10' Next Generation Sliding Glass door
+- **Front Door:** Weathershield Contemporary Collection - 3'6" x 8' Multi-Lock Glass Front Door
 
-- Anderson 100 Series Windows
+- **Windows:** Anderson 100 Series Windows
 
-- 8' Stained Wood Interior Doors
+- **Interior Doors:** 8' Stained Wood Interior Doors
 
 ## 🛡️ Warranty
+---
 
 - **Workmanship:** 1-Year Workmanship Warranty
 - **Appliances:** Manufacturer Warranties Apply
@@ -318,7 +320,8 @@ On Demand Hot Water Heater
 
 
 ## 🔧 Optional Upgrades
+---
 - ### Generac Propane Generator
-- ### Pole barn Out Building
+- ### Pole Barn Out-Building
 - ### Landscape Package
 - ### Security Camera Package

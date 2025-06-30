@@ -8,7 +8,7 @@ export function StaticHeroSection() {
         <Link href="/posts/pr7">
           <div className="relative w-full h-full">
             <Image
-              src="/assets/blog/pr7/FooterDrone2.JPG"
+              src="/assets/blog/pr7/Framing-PR7-1900.jpg"
               alt="Custom Home For Sale"
               fill
               priority
