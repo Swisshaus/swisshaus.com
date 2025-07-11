@@ -20,6 +20,7 @@ ogImage:
 * **Layout:** 4 Bedrooms, 3.5 Bathrooms, 3-Car Garage
 * **Estimated Completion:** December 2025
 
+![Siding almost finished on this custom home in Kalispell, near Whitefish Montana](/assets/blog/pr7/pr7-siding2.jpg)
 ![Lot 7 Exploded View of Floorplan](/assets/blog/pr7/ExplodedElevation.gif)
 ![Kalispell New Custom Home](/assets/blog/pr7/pr7-3.JPG)
 ![Kalispell Lower Valley New Home Builder](/assets/blog/pr7/pr7-2.JPG)
@@ -50,8 +51,8 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 
 **Breaking Ground:** April 2025  
 **Framing Complete:** June 2025  
-**Exterior Finishes:** August 2025  
-**Interior Finishes:** October 2025  
+**Exterior Finishes Complete:** August 2025  
+**Interior Finishes Complete:** October 2025  
 **Estimated Completion:** November 2025
 
 *Contact our sales team to secure this property during pre-construction for customization options.*
