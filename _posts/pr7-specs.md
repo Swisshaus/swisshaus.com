@@ -266,6 +266,10 @@ sectionImages:
 - Ready for ADU (Accessory Dwelling Unit)
 - Whole house surge protection at main panel
 
+### Garage Unit Heater
+
+- Pre-wired for 220v ceiling mounted heater in Garage
+
 ## Systems
 
 ---
@@ -343,6 +347,8 @@ sectionImages:
 	- Pre-Wired for Starlink
     
 - **Kitchen and Laundry:** - USB-A/C receptacles
+
+- **Electronic Shades:** - Pre-wired for Electronic Shades in Kitchen, Living room, Dining
     
 
 ## 🪟Windows and Doors

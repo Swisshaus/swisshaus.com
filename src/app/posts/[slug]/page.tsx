@@ -93,7 +93,7 @@ export async function generateMetadata({
     return notFound();
   }
 
-  const title = `${post.title} | Swisshaus blog with ${CMS_NAME}`;
+  const title = `${post.title} | Swisshaus ${CMS_NAME}`;
 
   return {
     title,
