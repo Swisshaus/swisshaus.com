@@ -11,6 +11,8 @@ ogImage:
   url: "/assets/blog/pr7/pr7-1.jpg"
 ---
 
+**[View Scandinavian Design Options](/posts/pr7-scandinavian)**
+
 ## Starting Notes:
 Be aware, with pictures it is very hard to capture the true color of these selections, many of the stock websites don't seem to reflect the actual color of the sample. I do my best to take a photo, and adjust to match the experienced color. Also, there will be some different lighting and times of day photographed due to the shifting nature of color through the day. This is also dependent on your computer monitor coloring. I am using a Macbook as they seem to have very accurate color monitors. 
 

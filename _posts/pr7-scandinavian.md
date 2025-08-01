@@ -11,6 +11,18 @@ ogImage:
   url: "/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-1.jpg"
 ---
 
+## New Scandinavian Design Photos 7/31/25
+
+![New Scandinavian Design 1](/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-1-2.jpg)
+
+![New Scandinavian Design 2](/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-2-2.jpg)
+
+![New Scandinavian Design 3](/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-3-2.jpg)
+
+![New Scandinavian Design 4](/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-4-2.jpg)
+
+---
+
 ## Scandinavian Design Collection
 
 This collection showcases the Scandinavian design aesthetic for Porter Ranch 7, featuring clean lines, natural materials, and a light, airy feel characteristic of Nordic design.
