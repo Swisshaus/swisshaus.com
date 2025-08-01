@@ -72,6 +72,9 @@ export default function PostImageHandler() {
       
       const img = target as HTMLImageElement;
       
+      // Skip images with data-no-lightbox attribute
+      if (img.hasAttribute('data-no-lightbox')) return;
+      
       // Skip non-blog images
       const isAvatar = 
         img.src.includes('/authors/') || 

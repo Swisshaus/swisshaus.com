@@ -8,6 +8,7 @@ export type Post = {
   author: Author;
   excerpt: string;
   category?: string; // Optional category field
+  hideCoverImage?: boolean; // Optional flag to hide cover image
   ogImage: {
     url: string;
   };

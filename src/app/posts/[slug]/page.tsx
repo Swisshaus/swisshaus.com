@@ -71,6 +71,7 @@ export default async function Post({
                 date={post.date}
                 author={post.author}
                 category={category}
+                hideCoverImage={post.hideCoverImage}
               />
               <PostBody content={content} isMdx={isMdx} />
             </>
