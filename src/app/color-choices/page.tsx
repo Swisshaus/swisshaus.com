@@ -14,38 +14,8 @@ interface ColorChoice {
   notes?: string;
 }
 
-const colorChoices: ColorChoice[] = [
-  {
-    id: 'flooring-glacier',
-    title: 'Flooring - Glacier',
-    description: '• <strong>Construction:</strong> Engineered 6 Ply Core<br/>• <strong>Length:</strong> Random Length up to 72"<br/>• <strong>Width:</strong> 7.5"<br/>• <strong>Species:</strong> European Oak<br/>• <strong>Texture:</strong> Wirebrush<br/>• <strong>Finish:</strong> UV Cured Finish<br/>• <strong>Gloss:</strong> Matte<br/>• <strong>Warranty:</strong> 20 Year Limited Residential',
-    deadline: 'August 22, 2025',
-    status: 'favored',
-    photos: [
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-14.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-1-2.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-1.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-10-2.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-10.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-11.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-12.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-13.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-2-2.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-2.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-3-2.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-3.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-4-2.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-4.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-5.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-6.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-7.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-8.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-9.jpg',
-      '/assets/blog/pr7/color-board/Flooring-Glacier/pr7-CB-Nordic-1.jpg',
-      '/assets/blog/pr7/color-board/Flooring-Glacier/pr7-CB-Nordic.jpg'
-    ],
-    notes: 'This flooring option provides excellent durability and matches the Scandinavian aesthetic perfectly.'
-  },
+// Cabinet choices
+const cabinetChoices: ColorChoice[] = [
   {
     id: 'cabinets-white',
     title: 'Cabinets - Designer White',
@@ -62,21 +32,6 @@ const colorChoices: ColorChoice[] = [
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-14.jpg'
     ],
     notes: 'Shaker style cabinets are a popular choice for their clean, timeless design. Awaiting client decision.'
-  },
-  {
-    id: 'door-stain',
-    title: 'Door/Sill Stain - #53',
-    description: 'Rich medium-tone stain that complements both light and dark elements',
-    deadline: 'August 1, 2025',
-    status: 'approved',
-    photos: [
-      '/assets/blog/pr7/color-board/pr7-CB-Door-1.jpg',
-      '/assets/blog/pr7/color-board/pr7-CB-Door-3.jpg',
-      '/assets/blog/pr7/color-board/pr7-CB-Doorstains-1.jpg',
-      '/assets/blog/pr7/color-board/pr7-CB-Option-A.png',
-      '/assets/blog/pr7/color-board/pr7-CB-Option-B-1.jpg'
-    ],
-    notes: 'Client has approved this stain selection. Order confirmed with supplier.'
   },
   {
     id: 'cabinets-royal-maple',
@@ -104,7 +59,7 @@ const colorChoices: ColorChoice[] = [
   {
     id: 'cabinets-dutch-maple',
     title: 'Alternative - Dutch Maple',
-    description: 'Lighter blue option with for a softer contrast',
+    description: 'Lighter blue option for a softer contrast',
     deadline: 'August 8, 2025',
     status: 'pending',
     photos: [
@@ -140,6 +95,89 @@ const colorChoices: ColorChoice[] = [
     photos: [],
     notes: 'Black matte finish provides a sleek, contemporary look that complements modern cabinetry. Awaiting client decision.'
   }
+];
+
+// Paint choices
+const paintChoices: ColorChoice[] = [
+  {
+    id: 'door-stain',
+    title: 'Door/Sill Stain - #53',
+    description: 'Rich medium-tone stain that complements both light and dark elements',
+    deadline: 'August 1, 2025',
+    status: 'approved',
+    photos: [
+      '/assets/blog/pr7/color-board/pr7-CB-Door-1.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Door-3.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Doorstains-1.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Option-A.png',
+      '/assets/blog/pr7/color-board/pr7-CB-Option-B-1.jpg'
+    ],
+    notes: 'Client has approved this stain selection. Order confirmed with supplier.'
+  },
+  {
+    id: 'interior-paint',
+    title: 'Interior Paint',
+    description: 'Interior paint colors for walls, ceilings, and trim throughout the home',
+    deadline: 'September 1, 2025',
+    status: 'pending',
+    photos: [],
+    notes: 'Interior paint selections will be finalized after cabinet and flooring decisions. Awaiting design consultation.'
+  },
+  {
+    id: 'exterior-paint',
+    title: 'Exterior Paint',
+    description: 'Exterior paint colors for siding, trim, and accent features',
+    deadline: 'September 15, 2025',
+    status: 'pending',
+    photos: [],
+    notes: 'Exterior paint palette will complement the overall design aesthetic. Awaiting architectural review.'
+  }
+];
+
+// Flooring choices
+const flooringChoices: ColorChoice[] = [
+  {
+    id: 'flooring-glacier',
+    title: 'Flooring - Glacier',
+    description: '• <strong>Construction:</strong> Engineered 6 Ply Core<br/>• <strong>Length:</strong> Random Length up to 72"<br/>• <strong>Width:</strong> 7.5"<br/>• <strong>Species:</strong> European Oak<br/>• <strong>Texture:</strong> Wirebrush<br/>• <strong>Finish:</strong> UV Cured Finish<br/>• <strong>Gloss:</strong> Matte<br/>• <strong>Warranty:</strong> 20 Year Limited Residential',
+    deadline: 'August 22, 2025',
+    status: 'favored',
+    photos: [
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-14.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-1-2.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-1.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-10-2.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-10.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-11.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-12.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-13.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-2-2.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-2.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-3-2.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-3.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-4-2.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-4.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-5.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-6.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-7.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-8.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-9.jpg',
+      '/assets/blog/pr7/color-board/Flooring-Glacier/pr7-CB-Nordic-1.jpg',
+      '/assets/blog/pr7/color-board/Flooring-Glacier/pr7-CB-Nordic.jpg'
+    ],
+    notes: 'This flooring option provides excellent durability and matches the Scandinavian aesthetic perfectly.'
+  }
+];
+
+// Categories to organize choices
+const categories = [
+  { name: "Cabinets", choices: cabinetChoices },
+  { name: "Paint", choices: paintChoices },
+  { name: "Flooring", choices: flooringChoices },
+  { name: "Tile", choices: [] },
+  { name: "Countertops", choices: [] },
+  { name: "Plumbing Fixtures", choices: [] },
+  { name: "Light Fixtures", choices: [] }
 ];
 
 export default function ColorChoices() {
@@ -210,109 +248,123 @@ export default function ColorChoices() {
       );
     }
   };
+
+  const renderComingSoonCard = (categoryName: string) => (
+    <div className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 rounded-xl shadow-md border-2 border-dashed border-gray-300 dark:border-gray-500 overflow-hidden">
+      <div className="h-48 flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-600 dark:to-gray-500">
+        <div className="text-center">
+          <div className="text-4xl mb-2">🚧</div>
+          <div className="text-lg font-semibold text-gray-600 dark:text-gray-300">Coming Soon</div>
+        </div>
+      </div>
+      <div className="p-6">
+        <h3 className="text-xl font-bold text-gray-700 dark:text-gray-300 mb-2">{categoryName} Options</h3>
+        <p className="text-gray-500 dark:text-gray-400 mb-4 leading-relaxed">
+          {categoryName} selections will be added here soon
+        </p>
+        <div className="bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700 rounded-lg p-3">
+          <p className="text-sm text-blue-700 dark:text-blue-300 font-medium">
+            📧 Check back soon for updates! You'll receive an email when new selections are available.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+
+  const renderChoiceCard = (choice: ColorChoice) => (
+    <div 
+      key={choice.id}
+      onClick={choice.photos.length > 0 ? () => openModal(choice) : undefined}
+      className={`rounded-xl shadow-md hover:shadow-lg dark:hover:shadow-gray-900/25 transition-all duration-200 hover:-translate-y-1 overflow-hidden ${
+        choice.photos.length > 0 
+          ? 'bg-white dark:bg-gray-800 cursor-pointer group' 
+          : 'bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 border-2 border-dashed border-gray-300 dark:border-gray-500'
+      }`}
+    >
+      <div className="h-48 overflow-hidden relative">
+        {choice.photos.length > 0 ? (
+          <img 
+            src={choice.photos[0]} 
+            alt={choice.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
+            data-no-lightbox="true"
+          />
+        ) : (
+          <div className="h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-600 dark:to-gray-500">
+            <div className="text-center">
+              <div className="text-4xl mb-2">🔧</div>
+              <div className="text-lg font-semibold text-gray-600 dark:text-gray-300">Coming Soon</div>
+            </div>
+          </div>
+        )}
+      </div>
+      <div className="p-6">
+        <h3 className={`text-xl font-bold mb-2 ${choice.photos.length > 0 ? 'text-gray-900 dark:text-gray-100' : 'text-gray-700 dark:text-gray-300'}`}>
+          {choice.title}
+        </h3>
+        <div 
+          className={`mb-4 leading-relaxed ${choice.photos.length > 0 ? 'text-gray-600 dark:text-gray-300' : 'text-gray-500 dark:text-gray-400'}`}
+          dangerouslySetInnerHTML={{ __html: choice.description }}
+        />
+        <div className="flex justify-between items-center flex-wrap gap-4">
+          <div>
+            <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-1">
+              Deadline
+            </div>
+            <div className="text-sm font-semibold text-gray-900 dark:text-gray-100">
+              {choice.deadline}
+            </div>
+          </div>
+          <div className={`flex items-center gap-2 px-3 py-2 rounded-full text-sm font-semibold ${getStatusColor(choice.status)}`}>
+            <span>{getStatusIcon(choice.status)}</span>
+            <span>{getStatusText(choice.status)}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
   return (
     <main>
       <Container>
         <Header />
         <div className="mb-32">
           {/* Hero Header */}
-          <div className="text-center py-8 px-4 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl mb-12">
-            <div className="inline-block bg-purple-900 text-white px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wider mb-4">
+          <div className="text-center py-8 px-4 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-700 rounded-xl mb-12">
+            <div className="inline-block bg-purple-900 dark:bg-purple-800 text-white px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wider mb-4">
               Color Selections
             </div>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-gray-100 mb-4 leading-tight">
               Porter Ranch 7 Color Board
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Track your selections, deadlines, and approvals in one place
             </p>
           </div>
 
           {/* Color Choice Dashboard */}
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Color Choice Dashboard</h2>
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">Color Choice Dashboard</h2>
 
-          {/* Choice Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-12">            
-            {colorChoices.map((choice) => (
-              <div 
-                key={choice.id}
-                onClick={choice.photos.length > 0 ? () => openModal(choice) : undefined}
-                className={`rounded-xl shadow-md hover:shadow-lg transition-all duration-200 hover:-translate-y-1 overflow-hidden ${
-                  choice.photos.length > 0 
-                    ? 'bg-white cursor-pointer group' 
-                    : 'bg-gradient-to-br from-gray-50 to-gray-100 border-2 border-dashed border-gray-300'
-                }`}
-              >
-                <div className="h-48 overflow-hidden relative">
-                  {choice.photos.length > 0 ? (
-                    <img 
-                      src={choice.photos[0]} 
-                      alt={choice.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
-                      data-no-lightbox="true"
-                    />
-                  ) : (
-                    <div className="h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
-                      <div className="text-center">
-                        <div className="text-4xl mb-2">🔧</div>
-                        <div className="text-lg font-semibold text-gray-600">Coming Soon</div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-                <div className="p-6">
-                  <h3 className={`text-xl font-bold mb-2 ${choice.photos.length > 0 ? 'text-gray-900' : 'text-gray-700'}`}>
-                    {choice.title}
-                  </h3>
-                  <div 
-                    className={`mb-4 leading-relaxed ${choice.photos.length > 0 ? 'text-gray-600' : 'text-gray-500'}`}
-                    dangerouslySetInnerHTML={{ __html: choice.description }}
-                  />
-                  <div className="flex justify-between items-center flex-wrap gap-4">
-                    <div>
-                      <div className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">
-                        Deadline
-                      </div>
-                      <div className="text-sm font-semibold text-gray-900">
-                        {choice.deadline}
-                      </div>
-                    </div>
-                    <div className={`flex items-center gap-2 px-3 py-2 rounded-full text-sm font-semibold ${getStatusColor(choice.status)}`}>
-                      <span>{getStatusIcon(choice.status)}</span>
-                      <span>{getStatusText(choice.status)}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-            
-            {/* Coming Soon Card */}
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl shadow-md border-2 border-dashed border-gray-300 overflow-hidden">
-              <div className="h-48 flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
-                <div className="text-center">
-                  <div className="text-4xl mb-2">🚧</div>
-                  <div className="text-lg font-semibold text-gray-600">Coming Soon</div>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-700 mb-2">More Selections</h3>
-                <p className="text-gray-500 mb-4 leading-relaxed">
-                  Additional color choices and design options will be added here soon
-                </p>
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
-                  <p className="text-sm text-blue-700 font-medium">
-                    📧 Check back soon for updates! You'll receive an email when new selections are available.
-                  </p>
-                </div>
+          {/* Categorized Sections */}
+          {categories.map((category) => (
+            <div key={category.name} className="mb-12">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 border-b-2 border-gray-200 dark:border-gray-700 pb-2">
+                {category.name}
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                {category.choices.length > 0 ? (
+                  category.choices.map((choice) => renderChoiceCard(choice))
+                ) : (
+                  renderComingSoonCard(category.name)
+                )}
               </div>
             </div>
-          </div>
+          ))}
 
           {/* Selection Notes */}
-          <div className="bg-gray-50 rounded-xl p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Selection Notes</h2>
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-8">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6">Selection Notes</h2>
             
-            <div className="space-y-4 text-gray-700">
+            <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
                 <strong>Designer Preference:</strong> The combination of Glacier flooring with Royal Maple accents creates a beautiful contrast that embodies the Scandinavian aesthetic while adding warmth to the space.
               </p>
@@ -323,28 +375,28 @@ export default function ColorChoices() {
             </div>
 
             <div className="mt-8">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Status Legend:</h3>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Status Legend:</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="flex items-center gap-3">
                   <div className="flex items-center gap-2 bg-green-100 text-green-800 px-3 py-2 rounded-full text-sm font-semibold">
                     <span>✅</span>
                     <span>Approved</span>
                   </div>
-                  <span className="text-sm text-gray-600">Selection confirmed and ordered</span>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Selection confirmed and ordered</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="flex items-center gap-2 bg-yellow-100 text-yellow-800 px-3 py-2 rounded-full text-sm font-semibold">
                     <span>⏳</span>
                     <span>Pending</span>
                   </div>
-                  <span className="text-sm text-gray-600">Awaiting client decision</span>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Awaiting client decision</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="flex items-center gap-2 bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm font-semibold">
                     <span>🔄</span>
                     <span>Favored</span>
                   </div>
-                  <span className="text-sm text-gray-600">Client is likely choosing this option, awaiting approval</span>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Client is likely choosing this option, awaiting approval</span>
                 </div>
               </div>
             </div>
@@ -358,13 +410,13 @@ export default function ColorChoices() {
             onClick={closeModal}
           >
             <div 
-              className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto"
+              className="bg-white dark:bg-gray-800 rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Modal Header */}
-              <div className="flex justify-between items-center p-6 border-b">
+              <div className="flex justify-between items-center p-6 border-b border-gray-200 dark:border-gray-700">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900">{selectedChoice.title}</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">{selectedChoice.title}</h2>
                   <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-semibold mt-2 ${getStatusColor(selectedChoice.status)}`}>
                     <span>{getStatusIcon(selectedChoice.status)}</span>
                     <span>{getStatusText(selectedChoice.status)}</span>
@@ -372,7 +424,7 @@ export default function ColorChoices() {
                 </div>
                 <button
                   onClick={closeModal}
-                  className="text-gray-400 hover:text-gray-600 transition-colors"
+                  className="text-gray-400 hover:text-gray-600 dark:text-gray-500 dark:hover:text-gray-300 transition-colors"
                 >
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -384,7 +436,7 @@ export default function ColorChoices() {
               <div className="p-6">
                 {/* Photo Gallery */}
                 <div className="relative mb-6">
-                  <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+                  <div className="aspect-video bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden">
                     <img
                       src={selectedChoice.photos[selectedPhotoIndex]}
                       alt={`${selectedChoice.title} - Photo ${selectedPhotoIndex + 1}`}
@@ -448,16 +500,16 @@ export default function ColorChoices() {
                 {/* Details */}
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Description</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Description</h3>
                     <div 
-                      className="text-gray-600 leading-relaxed mb-4"
+                      className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4"
                       dangerouslySetInnerHTML={{ __html: selectedChoice.description }}
                     />
                     
                     {selectedChoice.notes && (
                       <>
-                        <h3 className="text-lg font-semibold text-gray-900 mb-2">Notes</h3>
-                        <p className="text-gray-600 leading-relaxed">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Notes</h3>
+                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                           {selectedChoice.notes}
                         </p>
                       </>
@@ -465,12 +517,12 @@ export default function ColorChoices() {
                   </div>
 
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Timeline</h3>
-                    <div className="bg-gray-50 rounded-lg p-4">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Timeline</h3>
+                    <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
                       <div className="flex justify-between items-center">
                         <div>
-                          <div className="text-sm text-gray-500">Decision Deadline</div>
-                          <div className="text-lg font-semibold text-gray-900">{selectedChoice.deadline}</div>
+                          <div className="text-sm text-gray-500 dark:text-gray-400">Decision Deadline</div>
+                          <div className="text-lg font-semibold text-gray-900 dark:text-gray-100">{selectedChoice.deadline}</div>
                         </div>
                         <div className={`px-4 py-2 rounded-full text-sm font-semibold ${getStatusColor(selectedChoice.status)}`}>
                           {getStatusText(selectedChoice.status)}

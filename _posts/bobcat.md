@@ -13,7 +13,7 @@ ogImage:
 
 ## Built to feel like it was always there
 
-Territorial style home overlooking a wash known to be a home to local bobcats. Specifically designed for this lot, this home used the space to it's full advantage. The high walls in the entry courtyard provide a private sitting area or garden. A large native saguaro was highlighted with a combination of rustic slump block walls and rusted metal. The interior finishes chosen by the client created a clean and relaxing home. Brick window sills give a crisp beauty to the home.
+Territorial style home overlooking a wash known to be a home to local bobcats. Specifically designed for this lot, this home used the space to its full advantage. The high walls in the entry courtyard provide a private sitting area or garden. A large native saguaro was highlighted with a combination of rustic slump block walls and rusted metal. The interior finishes chosen by the client created a clean and relaxing home. Brick window sills give a crisp beauty to the home.
 
 ![Bobcat House Exterior](/assets/blog/bobcat/bobcat1.jpg)
 

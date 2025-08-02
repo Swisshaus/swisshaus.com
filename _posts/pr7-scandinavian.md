@@ -26,7 +26,7 @@ ogImage:
 
 The Dutch-Maple is significantly lighter than the Royal-Maple (as shown in the photo below)
 
-My personal preferance is leaning toward the darker combination of the light flooring with the **Royal-Maple**
+My personal preference is leaning toward the darker combination of the light flooring with the **Royal-Maple**
 
 ![New Scandinavian Design 13](/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-13.jpg)
 
