@@ -119,23 +119,41 @@ const paintChoices: ColorChoice[] = [
     id: 'interior-paint',
     title: 'Interior Paint',
     description: 'Interior paint colors for walls, ceilings, and trim throughout the home',
-    deadline: 'September 1, 2025',
+    deadline: 'August 20, 2025',
     status: 'pending',
-    photos: [],
-    notes: 'Interior paint selections will be finalized after cabinet and flooring decisions. Awaiting design consultation.'
+    photos: [
+      '/assets/blog/pr7/color-board/Paint/pr7-interior-paint-10.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Cabinets-1.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Dover-White.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Option-B-1.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Option-B-2.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-1.jpg',
+      '/assets/blog/pr7/color-board/Flooring-Glacier/pr7-CB-Nordic-1.jpg',
+      '/assets/blog/Lidstrom/alpine-meadow-17.jpg',
+      '/assets/blog/Lidstrom/alpine-meadow-18.jpg',
+      '/assets/blog/Lidstrom/alpine-meadow-19.jpg'
+    ],
+    notes: 'One color interior paint, Dover White by Sherwin Williams. This is the color we have used in multiple homes, it has a nice warm undertone. There are plenty of options for this choice, we can put up samples if you want to explore other options.'
   },
   {
     id: 'exterior-paint',
     title: 'Exterior Paint',
-    description: 'Exterior paint colors for siding, trim, and accent features',
-    deadline: 'September 15, 2025',
+    description: 'Exterior Paint for the main siding, as well as the Board and Batton Bump-outs',
+    deadline: 'August 13, 2025',
     status: 'pending',
     photos: [
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-Rust.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-paint-1.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-2.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-3.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-Green.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-White.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-gray.webp',
       '/assets/blog/Lidstrom/alpine-meadow-10.jpg',
       '/assets/blog/Lidstrom/alpine-meadow-11.jpg',
       '/assets/blog/Lidstrom/alpine-meadow-20.jpg'
     ],
-    notes: 'Exterior paint palette will complement the overall design aesthetic. Awaiting architectural review.'
+    notes: 'The planned colors were Iron Ore on the main lap siding, and a darker brown rusty-color on the board and batton bump outs. Iron Ore is the color the other home in these photos was painted. You can see the compliments to the rusted Corten roofing that PR7 would share. Take note: These colorized simulations of paint do not reflect acurately the actual painted siding. Samples can be put up to ensure the color choice.'
   }
 ];
 
