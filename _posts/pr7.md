@@ -3,7 +3,7 @@ title: "Porter Ranch 7"
 excerpt: "New Custom Home build for sale. Breaking ground April 2025"
 coverImage: "/assets/blog/pr7/pr7-1.jpg"
 date: "2025-04-11T05:35:07.322Z"
-category: "For-Sale"
+category: "Active-Under-Contract"
 author:
   name: Kevin Arnold
   picture: "/assets/blog/authors/kevin.png"
@@ -20,6 +20,7 @@ ogImage:
 * **Layout:** 4 Bedrooms, 3.5 Bathrooms, 3-Car Garage
 * **Estimated Completion:** December 2025
 
+![Latest progress on siding installation](/assets/blog/pr7/pr7-siding-10.webp)
 ![Siding almost finished on this custom home in Kalispell, near Whitefish Montana](/assets/blog/pr7/pr7-siding2.jpg)
 ![Lot 7 Exploded View of Floorplan](/assets/blog/pr7/ExplodedElevation.gif)
 ![Kalispell New Custom Home](/assets/blog/pr7/pr7-3.JPG)
@@ -44,8 +45,6 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 - Panoramic mountain views from multiple rooms
 - Oversized 3-car garage with ample storage and shop space
 - Outdoor living spaces designed for Montana lifestyle
-
-  [More Specifications](/posts/pr7-specs.md)
 
 ## Construction Timeline
 

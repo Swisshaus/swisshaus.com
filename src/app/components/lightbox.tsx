@@ -32,11 +32,12 @@ const Lightbox = () => {
       onClick={() => closeLightbox()}
       data-lightbox-overlay="true"
     >
-      <div className="relative max-w-screen-xl max-h-screen">
+      <div className="relative w-full h-full flex items-center justify-center p-2">
         <img
           src={imageUrl}
           alt="Enlarged view"
-          className="max-h-[85vh] max-w-full object-contain"
+          className="max-h-[96vh] max-w-[96vw] min-h-0 min-w-0 object-contain"
+          style={{ height: 'auto', width: 'auto' }}
           data-lightbox-image="true"
         />
       </div>

@@ -8,6 +8,7 @@ import { PostBody } from "@/app/components/post-body";
 import { PostHeader } from "@/app/components/post-header";
 import HomeCompleteLayout from "@/app/components/home-complete-layout";
 import ForSaleLayout from "@/app/components/for-sale-layout";
+import ActiveUnderContractLayout from "@/app/components/active-under-contract-layout";
 import { Metadata } from "next";
 
 export default async function Post({ 
@@ -37,6 +38,7 @@ export default async function Post({
   const category = post.category || "General";
   const isHomeComplete = category === "Home-Complete";
   const isForSale = category === "For-Sale";
+  const isActiveUnderContract = category === "Active-Under-Contract";
 
   return (
     <main>
@@ -55,6 +57,16 @@ export default async function Post({
             />
           ) : isForSale ? (
             <ForSaleLayout
+              title={post.title}
+              coverImage={post.coverImage}
+              date={post.date}
+              author={post.author}
+              category={category}
+              content={content}
+              isMdx={isMdx}
+            />
+          ) : isActiveUnderContract ? (
+            <ActiveUnderContractLayout
               title={post.title}
               coverImage={post.coverImage}
               date={post.date}

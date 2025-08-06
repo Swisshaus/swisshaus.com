@@ -4,25 +4,27 @@ import Image from "next/image";
 export function StaticHeroSection() {
   return (
     <section className="p-5">
-      <div className="relative w-full h-[70vh] mb-8">
-        <Link href="/posts/pr7">
-          <div className="relative w-full h-full">
-            <Image
-              src="/assets/blog/pr7/Framing-PR7-1900.jpg"
-              alt="Custom Home For Sale"
-              fill
-              priority
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/40 flex items-end">
-              <div className="max-w-[1200px] w-full mx-auto px-5 pb-12">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-3xl">
-                  New Custom Home For Sale
-                </h1>
+      <div className="max-w-[1200px] mx-auto">
+        <div className="relative w-full h-[50vh] mb-8">
+          <Link href="/posts/pr7">
+            <div className="relative w-full h-full">
+              <Image
+                src="/assets/blog/pr7/Framing-PR7-1900.jpg"
+                alt="Custom Home For Sale"
+                fill
+                priority
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/40 flex items-end">
+                <div className="w-full px-5 pb-12">
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-3xl">
+                    New Custom Home For Sale
+                  </h1>
+                </div>
               </div>
             </div>
-          </div>
-        </Link>
+          </Link>
+        </div>
       </div>
       <div className="max-w-[1200px] mx-auto px-5 md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
         <div>

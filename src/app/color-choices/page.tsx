@@ -3,6 +3,7 @@
 import Container from "@/app/components/container";
 import Header from "@/app/components/header";
 import { useState } from "react";
+import { useLightbox } from '../contexts/LightboxContext';
 
 interface ColorChoice {
   id: string;
@@ -129,7 +130,11 @@ const paintChoices: ColorChoice[] = [
     description: 'Exterior paint colors for siding, trim, and accent features',
     deadline: 'September 15, 2025',
     status: 'pending',
-    photos: [],
+    photos: [
+      '/assets/blog/Lidstrom/alpine-meadow-10.jpg',
+      '/assets/blog/Lidstrom/alpine-meadow-11.jpg',
+      '/assets/blog/Lidstrom/alpine-meadow-20.jpg'
+    ],
     notes: 'Exterior paint palette will complement the overall design aesthetic. Awaiting architectural review.'
   }
 ];
@@ -183,6 +188,7 @@ const categories = [
 export default function ColorChoices() {
   const [selectedChoice, setSelectedChoice] = useState<ColorChoice | null>(null);
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(0);
+  const { openLightbox } = useLightbox();
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -440,8 +446,11 @@ export default function ColorChoices() {
                     <img
                       src={selectedChoice.photos[selectedPhotoIndex]}
                       alt={`${selectedChoice.title} - Photo ${selectedPhotoIndex + 1}`}
-                      className="w-full h-full object-cover"
-                      data-no-lightbox="true"
+                      className="w-full h-full object-cover cursor-pointer hover:opacity-90 transition-opacity"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        openLightbox(selectedChoice.photos[selectedPhotoIndex], selectedChoice.photos);
+                      }}
                     />
                   </div>
 
