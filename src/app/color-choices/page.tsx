@@ -147,6 +147,8 @@ const paintChoices: ColorChoice[] = [
       '/assets/blog/pr7/color-board/Paint/PR7-Paint-2.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Paint-3.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Paint-Green.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-Green-Darker.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-Green-Main.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Paint-White.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Paint-gray.webp',
       '/assets/blog/Lidstrom/alpine-meadow-10.jpg',
