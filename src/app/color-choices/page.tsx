@@ -95,6 +95,56 @@ const cabinetChoices: ColorChoice[] = [
     status: 'pending',
     photos: [],
     notes: 'Black matte finish provides a sleek, contemporary look that complements modern cabinetry. Awaiting client decision.'
+  },
+  {
+    id: 'cabinet-locations-breakdown',
+    title: 'Cabinet Color Groups',
+    description: 'Detailed breakdown of cabinet locations throughout the home with preferred color selections',
+    deadline: 'August 8, 2025',
+    status: 'favored',
+    photos: [
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-11.jpg',
+      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-14.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Option-B-1.jpg'
+    ],
+    notes: `<strong>Kitchen:</strong><br/>
+• Island: Royal Blue Maple<br/>
+• Wall Lowers: Honey Walnut<br/>
+• Wall Uppers: Designer White<br/>
+• Oven: TBD<br/><br/>
+
+<strong>Butler Pantry:</strong><br/>
+• Lowers: Honey Walnut<br/>
+• Uppers: Designer White<br/><br/>
+
+<strong>Bathrooms:</strong><br/>
+• Master Bath: Royal Blue Maple<br/>
+• Master Closet Linen: Honey Walnut<br/>
+• Bath 2 (Office): Honey Walnut<br/>
+• Bath 3 (Jack & Jill): Honey Walnut<br/>
+• Powder Room: Honey Walnut<br/><br/>
+
+<strong>Laundry:</strong><br/>
+• Lowers: Honey Walnut<br/>
+• Uppers: Designer White`
+  },
+  {
+    id: 'kitchen-oven-cabinet',
+    title: 'Kitchen Oven Cabinet',
+    description: 'Using the color of the Kitchen Uppers, or the Kitchen wall lowers?',
+    deadline: 'August 8, 2025',
+    status: 'pending',
+    photos: [
+      '/assets/blog/pr7/color-board/PR7-Range-Cabinets.webp'
+    ],
+    notes: `<strong>Color of Uppers Examples:</strong><br/><br/>
+<a href="https://www.houzz.com/photos/doheny-penthouse-renovation-traditional-kitchen-los-angeles-phvw-vp~83065000" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Doheny Penthouse Renovation - Traditional Kitchen</a><br/><br/>
+<a href="https://www.houzz.com/photos/contemporary-lakeside-renovation-contemporary-kitchen-los-angeles-phvw-vp~143007470" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Contemporary Lakeside Renovation - Contemporary Kitchen</a><br/><br/>
+
+<strong>Color of Lowers Examples:</strong><br/><br/>
+<a href="https://www.houzz.com/photos/hoegger-lake-house-kitchen-traditional-kitchen-dallas-phvw-vp~2679566" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Hoegger Lake House Kitchen - Traditional Kitchen</a><br/><br/>
+<a href="https://www.houzz.com/photos/lago-bungalow-kitchen-contemporary-kitchen-sacramento-phvw-vp~158903200" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Lago Bungalow Kitchen - Contemporary Kitchen</a><br/><br/>
+<a href="https://www.houzz.com/photos/transitional-kitchen-transitional-kitchen-denver-phvw-vp~135912895" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Transitional Kitchen - Transitional Kitchen</a>`
   }
 ];
 
@@ -120,7 +170,7 @@ const paintChoices: ColorChoice[] = [
     title: 'Interior Paint',
     description: 'Interior paint colors for walls, ceilings, and trim throughout the home',
     deadline: 'August 20, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/Paint/pr7-interior-paint-10.jpg',
       '/assets/blog/pr7/color-board/pr7-CB-Cabinets-1.jpg',
@@ -142,6 +192,9 @@ const paintChoices: ColorChoice[] = [
     deadline: 'August 13, 2025',
     status: 'pending',
     photos: [
+      '/assets/blog/pr7/color-board/Paint/PR7-Home-Example-2.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Home-Example.webp',
+      '/assets/blog/pr7/color-board/Paint/Color-Idea.jpeg',
       '/assets/blog/pr7/color-board/Paint/PR7-Paint-Rust.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-paint-1.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Paint-2.webp',
@@ -194,6 +247,19 @@ const flooringChoices: ColorChoice[] = [
   }
 ];
 
+// Plumbing fixtures choices
+const plumbingFixtureChoices: ColorChoice[] = [
+  {
+    id: 'kitchen-sink',
+    title: 'Kitchen Sink - White Farmhouse Sink',
+    description: 'Classic white farmhouse apron-front sink for the kitchen',
+    deadline: 'August 7, 2025',
+    status: 'approved',
+    photos: [],
+    notes: 'White farmhouse sink will complement the overall kitchen design with its classic, timeless appeal. Awaiting client decision.'
+  }
+];
+
 // Categories to organize choices
 const categories = [
   { name: "Cabinets", choices: cabinetChoices },
@@ -201,7 +267,7 @@ const categories = [
   { name: "Flooring", choices: flooringChoices },
   { name: "Tile", choices: [] },
   { name: "Countertops", choices: [] },
-  { name: "Plumbing Fixtures", choices: [] },
+  { name: "Plumbing Fixtures", choices: plumbingFixtureChoices },
   { name: "Light Fixtures", choices: [] }
 ];
 
@@ -427,6 +493,355 @@ export default function ColorChoices() {
               </div>
             </div>
           </div>
+
+          {/* Supplier Contact Information */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-8 mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6">Supplier Contact Information</h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {/* Countertop Supplier */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>🪨</span>
+                  <span>Countertops</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-900 dark:text-gray-100">Montana Stone Fabricators</div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="tel:+1-406-730-1567" className="text-blue-600 hover:text-blue-800 underline">
+                      (406) 730-1567
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="https://maps.app.goo.gl/X2kYfmtvCqzHaM178" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
+                      View on Map
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    304 Antelope Trail, Whitefish, MT 59937
+                  </div>
+                </div>
+              </div>
+
+
+              {/* Paint Supplier 1 */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>🎨</span>
+                  <span>Paint (Location 1)</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-900 dark:text-gray-100">Sherwin-Williams Paint Store</div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="tel:+1-406-752-5588" className="text-blue-600 hover:text-blue-800 underline">
+                      (406) 752-5588
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="https://maps.app.goo.gl/a2ub8WwAQr6RWzU5A" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
+                      View on Map
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    53 1st Avenue East N, Kalispell, MT
+                  </div>
+                </div>
+              </div>
+
+              {/* Paint Supplier 2 */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>🎨</span>
+                  <span>Paint (Location 2)</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-900 dark:text-gray-100">Sherwin-Williams Paint Store</div>
+                  <div className="text-gray-600 dark:text-gray-400">Phone: TBD</div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="https://maps.app.goo.gl/gynMjJvYezjA4XxD7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
+                      View on Map
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    430 Cascade Loop, Kalispell, MT 59901
+                  </div>
+                </div>
+              </div>
+
+              {/* Flooring Supplier 1 */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>🏗️</span>
+                  <span>Flooring (Location 1)</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-900 dark:text-gray-100">Flooring America</div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="tel:+1-877-240-0478" className="text-blue-600 hover:text-blue-800 underline">
+                      (877) 240-0478
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="https://maps.app.goo.gl/Ng74XeHxjQsKRyyi6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
+                      View on Map
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    206 W Center St Ste A, Kalispell, MT 59901
+                  </div>
+                </div>
+              </div>
+
+              {/* Flooring Supplier 2 */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>🏗️</span>
+                  <span>Flooring (Location 2)</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-900 dark:text-gray-100">Glacier Hardwoods LLC</div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="tel:+1-406-756-9515" className="text-blue-600 hover:text-blue-800 underline">
+                      (406) 756-9515
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="https://maps.app.goo.gl/mDr3UvVXc6C4Bc5A9" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
+                      View on Map
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    216 Frontage Park, Kalispell, MT 59901
+                  </div>
+                  <div className="text-xs text-blue-700 dark:text-blue-300 bg-blue-50 dark:bg-blue-900/30 rounded p-2 mt-2">
+                    <strong>Note:</strong> Large size sample of Glacier - Cordalera available here
+                  </div>
+                </div>
+              </div>
+
+              {/* Tile Supplier 1 */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>🔲</span>
+                  <span>Tile (Location 1)</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-900 dark:text-gray-100">Flooring America</div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="tel:+1-877-240-0478" className="text-blue-600 hover:text-blue-800 underline">
+                      (877) 240-0478
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="https://maps.app.goo.gl/Ng74XeHxjQsKRyyi6" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
+                      View on Map
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    206 W Center St Ste A, Kalispell, MT 59901
+                  </div>
+                </div>
+              </div>
+
+              {/* Tile Supplier 2 */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>🔲</span>
+                  <span>Tile (Location 2)</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-900 dark:text-gray-100">The Carpet Store</div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="tel:+1-406-755-0030" className="text-blue-600 hover:text-blue-800 underline">
+                      (406) 755-0030
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    <a href="https://maps.app.goo.gl/LW3L9kuGfd6UzzgC8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">
+                      View on Map
+                    </a>
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    525 W Idaho St, Kalispell, MT 59901
+                  </div>
+                  <div className="text-xs text-blue-700 dark:text-blue-300 bg-blue-50 dark:bg-blue-900/30 rounded p-2 mt-2">
+                    <strong>Note:</strong> Small wood floor sample is located here
+                  </div>
+                </div>
+              </div>
+
+              {/* Plumbing Fixtures Supplier */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>🚿</span>
+                  <span>Plumbing Fixtures</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-600 dark:text-gray-400 italic">*COMING SOON*</div>
+                  <div className="text-gray-600 dark:text-gray-400">Phone: TBD</div>
+                  <div className="text-gray-600 dark:text-gray-400">Map: TBD</div>
+                  <div className="text-gray-600 dark:text-gray-400">Address: TBD</div>
+                </div>
+              </div>
+
+              {/* Light Fixtures Supplier */}
+              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3 flex items-center gap-2">
+                  <span>💡</span>
+                  <span>Light Fixtures</span>
+                </h3>
+                <div className="space-y-2 text-sm">
+                  <div className="font-medium text-gray-600 dark:text-gray-400 italic">*COMING SOON*</div>
+                  <div className="text-gray-600 dark:text-gray-400">Phone: TBD</div>
+                  <div className="text-gray-600 dark:text-gray-400">Map: TBD</div>
+                  <div className="text-gray-600 dark:text-gray-400">Address: TBD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Project Calendar */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-8 mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6">Project Timeline & Deadlines</h2>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Upcoming Deadlines */}
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-2">
+                  <span>📅</span>
+                  <span>Upcoming Selection Deadlines</span>
+                </h3>
+                
+                <div className="space-y-3">
+                  {(() => {
+                    // Extract all deadlines from choices
+                    const allChoices = [...cabinetChoices, ...paintChoices, ...flooringChoices, ...plumbingFixtureChoices];
+                    const deadlines = allChoices
+                      .filter(choice => choice.status !== 'approved')
+                      .map(choice => ({
+                        title: choice.title,
+                        date: choice.deadline,
+                        status: choice.status,
+                        id: choice.id
+                      }))
+                      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+                    
+                    return deadlines.slice(0, 5).map((item, index) => (
+                      <div key={item.id} className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                        <div>
+                          <div className="font-medium text-gray-900 dark:text-gray-100">{item.title}</div>
+                          <div className="text-sm text-gray-600 dark:text-gray-400">Due: {item.date}</div>
+                        </div>
+                        <div className={`px-2 py-1 rounded-full text-xs font-semibold ${
+                          item.status === 'pending' ? 'bg-yellow-100 text-yellow-800' : 
+                          item.status === 'favored' ? 'bg-blue-100 text-blue-800' : 
+                          'bg-gray-100 text-gray-800'
+                        }`}>
+                          {item.status === 'pending' ? 'Pending' :
+                           item.status === 'favored' ? 'Favored' : 'TBD'}
+                        </div>
+                      </div>
+                    ));
+                  })()}
+                </div>
+              </div>
+
+              {/* Project Milestones */}
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-2">
+                  <span>🏗️</span>
+                  <span>Project Milestones</span>
+                </h3>
+                
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-medium text-gray-900 dark:text-gray-100">Interior Paint Application</div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400">Estimated: September 1, 2025</div>
+                    </div>
+                    <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-semibold">
+                      Upcoming
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-medium text-gray-900 dark:text-gray-100">Cabinet Installation Start</div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400">Estimated: September 15, 2025</div>
+                    </div>
+                    <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-semibold">
+                      Upcoming
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-medium text-gray-900 dark:text-gray-100">Flooring Installation</div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400">Estimated: September 25, 2025</div>
+                    </div>
+                    <div className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-semibold">
+                      Upcoming
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-medium text-gray-900 dark:text-gray-100">Final Walkthrough</div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400">Estimated: November 15, 2025</div>
+                    </div>
+                    <div className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-semibold">
+                      Goal
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Calendar View */}
+            <div className="mt-8 p-6 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 rounded-lg">
+              <div className="text-center">
+                <div className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">August 2025</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">Selection deadline month</div>
+                
+                <div className="grid grid-cols-7 gap-1 text-center mb-2">
+                  {['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map(day => (
+                    <div key={day} className="p-2 text-xs font-semibold text-gray-500 dark:text-gray-400">
+                      {day}
+                    </div>
+                  ))}
+                </div>
+                
+                <div className="grid grid-cols-7 gap-1">
+                  {/* Calendar days - August 2025 */}
+                  {Array.from({length: 31}, (_, i) => i + 1).map(day => {
+                    const isDeadline = [7, 8, 13, 20, 25].includes(day); // Sample deadline days
+                    const isToday = day === 7; // Assuming today is the 7th
+                    
+                    return (
+                      <div key={day} className={`p-2 text-sm rounded ${
+                        isToday ? 'bg-purple-600 text-white font-bold' :
+                        isDeadline ? 'bg-red-100 text-red-800 font-semibold' :
+                        'text-gray-700 dark:text-gray-300'
+                      }`}>
+                        {day}
+                      </div>
+                    );
+                  })}
+                </div>
+                
+                <div className="flex justify-center gap-4 mt-4 text-xs">
+                  <div className="flex items-center gap-1">
+                    <div className="w-3 h-3 bg-purple-600 rounded"></div>
+                    <span className="text-gray-600 dark:text-gray-400">Today</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <div className="w-3 h-3 bg-red-100 rounded"></div>
+                    <span className="text-gray-600 dark:text-gray-400">Deadline</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Modal */}
@@ -538,9 +953,10 @@ export default function ColorChoices() {
                     {selectedChoice.notes && (
                       <>
                         <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Notes</h3>
-                        <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                          {selectedChoice.notes}
-                        </p>
+                        <div 
+                          className="text-gray-600 dark:text-gray-300 leading-relaxed"
+                          dangerouslySetInnerHTML={{ __html: selectedChoice.notes }}
+                        />
                       </>
                     )}
                   </div>
