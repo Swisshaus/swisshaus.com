@@ -22,7 +22,7 @@ const cabinetChoices: ColorChoice[] = [
     title: 'Cabinets - Designer White',
     description: 'Crisp white cabinetry with soft-close hinges and modern hardware. Shaker Door Panel style.',
     deadline: 'August 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-11.jpg',
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-3.jpg',
@@ -39,7 +39,7 @@ const cabinetChoices: ColorChoice[] = [
     title: 'Accent Cabinets - Royal Maple',
     description: 'Royal Blue painted maple wood cabinet finish for kitchen island. The dark royal blue color matches beautifully with white and walnut finishes.',
     deadline: 'August 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/pr7-CB-Cabinets-1.jpg',
       '/assets/blog/pr7/color-board/pr7-CB-Option-B-1.jpg',
@@ -58,24 +58,11 @@ const cabinetChoices: ColorChoice[] = [
     notes: 'Rich blue finish would create beautiful contrast with white cabinets. Awaiting client decision.'
   },
   {
-    id: 'cabinets-dutch-maple',
-    title: 'Alternative - Dutch Maple',
-    description: 'Lighter blue option for a softer contrast',
-    deadline: 'August 8, 2025',
-    status: 'pending',
-    photos: [
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-12.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-13.jpg',
-      '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-4-2.jpg'
-    ],
-    notes: 'Lighter alternative to Royal Maple - same wood species, simply a lighter color. Awaiting client decision.'
-  },
-  {
     id: 'cabinets-honey-walnut',
     title: 'Cabinets - Honey-Walnut',
     description: 'Warm honey-walnut finish for lower wall cabinets in the kitchen and bathroom vanity cabinets. Rich wood tones that complement the overall design palette.',
     deadline: 'August 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-14.jpg',
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-13.jpg',
@@ -91,7 +78,7 @@ const cabinetChoices: ColorChoice[] = [
     id: 'hardware-black-matte',
     title: 'Cabinet Hardware',
     description: 'Modern cabinet pulls and hinges in black matte finish',
-    deadline: 'August 25, 2025',
+    deadline: 'September 1, 2025',
     status: 'pending',
     photos: [],
     notes: 'Black matte finish provides a sleek, contemporary look that complements modern cabinetry. Awaiting client decision.'
@@ -101,7 +88,7 @@ const cabinetChoices: ColorChoice[] = [
     title: 'Cabinet Color Groups',
     description: 'Detailed breakdown of cabinet locations throughout the home with preferred color selections',
     deadline: 'August 8, 2025',
-    status: 'favored',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-11.jpg',
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-14.jpg',
@@ -130,18 +117,16 @@ const cabinetChoices: ColorChoice[] = [
   },
   {
     id: 'kitchen-oven-cabinet',
-    title: 'Kitchen Oven Cabinet',
-    description: 'Using the color of the Kitchen Uppers, or the Kitchen wall lowers?',
+    title: 'Kitchen Oven Cabinet - Honey-Walnut',
+    description: 'Decision made to use the color of the Kitchen wall lowers: Honey-Walnut finish',
     deadline: 'August 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/PR7-Range-Cabinets.webp'
     ],
-    notes: `<strong>Color of Uppers Examples:</strong><br/><br/>
-<a href="https://www.houzz.com/photos/doheny-penthouse-renovation-traditional-kitchen-los-angeles-phvw-vp~83065000" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Doheny Penthouse Renovation - Traditional Kitchen</a><br/><br/>
-<a href="https://www.houzz.com/photos/contemporary-lakeside-renovation-contemporary-kitchen-los-angeles-phvw-vp~143007470" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Contemporary Lakeside Renovation - Contemporary Kitchen</a><br/><br/>
+    notes: `<strong>Decision Confirmed:</strong> Kitchen oven cabinet will match the wall lower cabinets using Honey-Walnut finish for visual continuity and warmth.<br/><br/>
 
-<strong>Color of Lowers Examples:</strong><br/><br/>
+<strong>Reference Examples (Selected Option):</strong><br/><br/>
 <a href="https://www.houzz.com/photos/hoegger-lake-house-kitchen-traditional-kitchen-dallas-phvw-vp~2679566" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Hoegger Lake House Kitchen - Traditional Kitchen</a><br/><br/>
 <a href="https://www.houzz.com/photos/lago-bungalow-kitchen-contemporary-kitchen-sacramento-phvw-vp~158903200" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Lago Bungalow Kitchen - Contemporary Kitchen</a><br/><br/>
 <a href="https://www.houzz.com/photos/transitional-kitchen-transitional-kitchen-denver-phvw-vp~135912895" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Transitional Kitchen - Transitional Kitchen</a>`
@@ -192,6 +177,10 @@ const paintChoices: ColorChoice[] = [
     deadline: 'August 13, 2025',
     status: 'pending',
     photos: [
+      '/assets/blog/pr7/color-board/Paint/Light/PR7-Paint-8.webp',
+      '/assets/blog/pr7/color-board/Paint/Light/PR7-Paint-5.webp',
+      '/assets/blog/pr7/color-board/Paint/Light/PR7-Paint-6.webp',
+      '/assets/blog/pr7/color-board/Paint/Light/PR7-Paint-7.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Home-Example-2.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Home-Example.webp',
       '/assets/blog/pr7/color-board/Paint/Color-Idea.jpeg',
@@ -730,7 +719,7 @@ export default function ColorChoices() {
                       }))
                       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
                     
-                    return deadlines.slice(0, 5).map((item, index) => (
+                    return deadlines.slice(0, 5).map((item) => (
                       <div key={item.id} className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
                         <div>
                           <div className="font-medium text-gray-900 dark:text-gray-100">{item.title}</div>
@@ -817,9 +806,19 @@ export default function ColorChoices() {
                 
                 <div className="grid grid-cols-7 gap-1">
                   {/* Calendar days - August 2025 */}
-                  {Array.from({length: 31}, (_, i) => i + 1).map(day => {
-                    const isDeadline = [7, 8, 13, 20, 25].includes(day); // Sample deadline days
-                    const isToday = day === 7; // Assuming today is the 7th
+                  {(() => {
+                    // Extract deadline days for August 2025 from all non-approved choices
+                    const allChoices = [...cabinetChoices, ...paintChoices, ...flooringChoices, ...plumbingFixtureChoices];
+                    const augustDeadlineDays = allChoices
+                      .filter(choice => choice.status !== 'approved')
+                      .map(choice => new Date(choice.deadline))
+                      .filter(date => date.getMonth() === 7 && date.getFullYear() === 2025) // August 2025
+                      .map(date => date.getDate());
+                    
+                    return Array.from({length: 31}, (_, i) => i + 1).map(day => {
+                      const isDeadline = augustDeadlineDays.includes(day);
+                    const today = new Date();
+                    const isToday = today.getMonth() === 7 && today.getFullYear() === 2025 && day === today.getDate(); // August is month 7 (0-indexed)
                     
                     return (
                       <div key={day} className={`p-2 text-sm rounded ${
@@ -830,7 +829,8 @@ export default function ColorChoices() {
                         {day}
                       </div>
                     );
-                  })}
+                    });
+                  })()}
                 </div>
                 
                 <div className="flex justify-center gap-4 mt-4 text-xs">
