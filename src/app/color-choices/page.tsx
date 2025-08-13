@@ -90,9 +90,18 @@ const cabinetChoices: ColorChoice[] = [
     deadline: 'August 8, 2025',
     status: 'approved',
     photos: [
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Kitchen-Island.jpg',
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-11.jpg',
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-14.jpg',
-      '/assets/blog/pr7/color-board/pr7-CB-Option-B-1.jpg'
+      '/assets/blog/pr7/color-board/pr7-CB-Option-B-1.jpg',
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Kitchen-Sink.jpg',
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Kitchen-Range.jpg',
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Butler-Pantry.jpg',
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Master-Bath.jpg',
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Bath-2.jpg',
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Bath-3.jpg',
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Powder.jpg',
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Laundry.jpg'
     ],
     notes: `<strong>Kitchen:</strong><br/>
 • Island: Royal Blue Maple<br/>
@@ -122,7 +131,7 @@ const cabinetChoices: ColorChoice[] = [
     deadline: 'August 8, 2025',
     status: 'approved',
     photos: [
-      '/assets/blog/pr7/color-board/PR7-Range-Cabinets.webp'
+      '/assets/blog/pr7/color-board/Cabinets/PR7-Cabinet-Elevations_Kitchen-Range.jpg'
     ],
     notes: `<strong>Decision Confirmed:</strong> Kitchen oven cabinet will match the wall lower cabinets using Honey-Walnut finish for visual continuity and warmth.<br/><br/>
 
@@ -202,6 +211,19 @@ const paintChoices: ColorChoice[] = [
       '/assets/blog/Lidstrom/alpine-meadow-20.jpg'
     ],
     notes: 'The planned colors were Iron Ore on the main lap siding, and a darker brown rusty-color on the board and batton bump outs. Iron Ore is the color the other home in these photos was painted. You can see the compliments to the rusted Corten roofing that PR7 would share. Take note: These colorized simulations of paint do not reflect acurately the actual painted siding. Samples can be put up to ensure the color choice.'
+  },
+  {
+    id: 'exterior-paint-board-batton',
+    title: 'Exterior Paint - Board & Batton - Bump Out',
+    description: '',
+    deadline: 'August 13, 2025',
+    status: 'pending',
+    photos: [
+      '/assets/blog/pr7/color-board/Paint/PR7-Paint-Rust.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Home-Example.webp',
+      '/assets/blog/pr7/color-board/Paint/PR7-Home-Example-2.webp'
+    ],
+    notes: 'The board and batton bump-out sections will feature a darker brown rusty-color that creates beautiful contrast with the main Iron Ore lap siding. This color choice complements the rusted Corten roofing material and adds visual interest to the exterior design. The warm, earthy tone provides depth and character to the architectural features while maintaining harmony with the overall color palette.'
   }
 ];
 
@@ -245,11 +267,85 @@ const plumbingFixtureChoices: ColorChoice[] = [
   {
     id: 'kitchen-sink',
     title: 'Kitchen Sink - White Farmhouse Sink',
-    description: 'Classic white farmhouse apron-front sink for the kitchen',
+    description: 'Classic white farmhouse apron-front sink for the kitchen with copper faucet',
     deadline: 'August 7, 2025',
     status: 'approved',
-    photos: [],
-    notes: 'White farmhouse sink will complement the overall kitchen design with its classic, timeless appeal. Awaiting client decision.'
+    photos: [
+      '/assets/blog/pr7/color-board/plumbing-fixtures/white-farmhouse-sink.png'
+    ],
+    notes: 'White farmhouse sink will complement the overall kitchen design with its classic, timeless appeal. The apron-front design creates a beautiful focal point, and the copper faucet adds warmth that coordinates with the honey-walnut cabinet finishes.'
+  },
+  {
+    id: 'bathroom-vanity-sink',
+    title: 'Bathroom Vanity Sink - Kohler Ladena White',
+    description: 'Kohler Ladena 22-7/8" Undermount Bathroom Sink with Overflow in White. Premium undermount design for a clean, seamless look.',
+    deadline: 'August 15, 2025',
+    status: 'pending',
+    photos: [
+      '/assets/blog/pr7/color-board/plumbing-fixtures/kohler-ladena-sink.png'
+    ],
+    notes: `<strong>Product Details:</strong><br/>
+• Model: Kohler K-2215<br/>
+• Size: 22-7/8" undermount design<br/>
+• Color: White<br/>
+• Features: Includes overflow<br/>
+• Warranty: One-year limited warranty<br/><br/>
+
+<strong>Product Link:</strong><br/>
+<a href="https://www.build.com/kohler-k-2215/s560199?uid=220878" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a><br/><br/>
+
+<strong>Design Notes:</strong> The undermount design provides a clean, seamless look that complements modern bathroom vanities. The overflow feature prevents water damage from accidental overfilling. The white finish coordinates perfectly with the approved Designer White cabinetry.`
+  },
+  {
+    id: 'master-bath-tub',
+    title: 'Master Bath Tub - Altair Ryder Freestanding',
+    description: 'Altair Ryder 69" Free Standing Solid Surface Soaking Tub in Matte White. Modern oval design with ergonomic slope.',
+    deadline: 'August 20, 2025',
+    status: 'pending',
+    photos: [
+      '/assets/blog/pr7/color-board/plumbing-fixtures/altair-ryder-tub.png'
+    ],
+    notes: `<strong>Product Details:</strong><br/>
+• Model: Altair 53369-BAT-MW<br/>
+• Dimensions: 68.9" L x 29.5" W x 21.6" H<br/>
+• Material: Solid Surface<br/>
+• Color: Matte White<br/>
+• Weight: 293.2 lbs<br/>
+• Water Capacity: 95 gallons<br/>
+• Water Depth: 14.2 inches<br/>
+• Configuration: Free standing with center drain<br/>
+• Warranty: 1-year limited warranty<br/><br/>
+
+<strong>Product Link:</strong><br/>
+<a href="https://www.build.com/altair-53369-bat/s2047933?uid=4919913" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a><br/><br/>
+
+<strong>Design Notes:</strong> Same material soaking tub as the one you saw in PR5 - extra long 69" for taller users - symetrical for space. Still very heavy(good thing!) and will retain heat nicely.`
+  }
+];
+
+// Tile choices
+const tileChoices: ColorChoice[] = [
+  {
+    id: 'tile-selection',
+    title: 'Tile Selection',
+    description: 'Sample sourced from Flooring America. Sample pictured: The Masonry Center - Union in Platinum White',
+    deadline: 'August 25, 2025',
+    status: 'pending',
+    photos: [
+      '/assets/blog/pr7/color-board/pr7-CB-Nordic.jpg',
+      '/assets/blog/pr7/color-board/pr7-CB-Door-3.jpg'
+    ],
+    notes: `<strong>Supplier Information:</strong><br/>
+<a href="https://maps.app.goo.gl/Ng74XeHxjQsKRyyi6" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Flooring America - 206 W Center St Ste A, Kalispell, MT 59901</a><br/>
+Phone: <a href="tel:+1-877-240-0478" class="text-blue-600 hover:text-blue-800 underline">(877) 240-0478</a><br/><br/>
+
+<strong>Product Details:</strong><br/>
+• Collection: The Masonry Center<br/>
+• Style: Union<br/>
+• Color: Platinum White<br/><br/>
+
+<strong>Product Link:</strong><br/>
+<a href="https://masonrycenter.com/products/union-un01" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Union Collection on Masonry Center</a>`
   }
 ];
 
@@ -258,7 +354,7 @@ const categories = [
   { name: "Cabinets", choices: cabinetChoices },
   { name: "Paint", choices: paintChoices },
   { name: "Flooring", choices: flooringChoices },
-  { name: "Tile", choices: [] },
+  { name: "Tile", choices: tileChoices },
   { name: "Countertops", choices: [] },
   { name: "Plumbing Fixtures", choices: plumbingFixtureChoices },
   { name: "Light Fixtures", choices: [] }
@@ -694,12 +790,12 @@ export default function ColorChoices() {
           </div>
 
           {/* Project Calendar */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-8 mb-12">
+          {/* <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-8 mb-12">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6">Project Timeline & Deadlines</h2>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Upcoming Deadlines */}
-              <div>
+              {/* <div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-2">
                   <span>📅</span>
                   <span>Upcoming Selection Deadlines</span>
@@ -740,7 +836,7 @@ export default function ColorChoices() {
               </div>
 
               {/* Project Milestones */}
-              <div>
+              {/* <div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4 flex items-center gap-2">
                   <span>🏗️</span>
                   <span>Project Milestones</span>
@@ -791,7 +887,7 @@ export default function ColorChoices() {
             </div>
             
             {/* Calendar View */}
-            <div className="mt-8 p-6 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 rounded-lg">
+            {/* <div className="mt-8 p-6 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 rounded-lg">
               <div className="text-center">
                 <div className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">August 2025</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">Selection deadline month</div>
@@ -806,7 +902,7 @@ export default function ColorChoices() {
                 
                 <div className="grid grid-cols-7 gap-1">
                   {/* Calendar days - August 2025 */}
-                  {(() => {
+                  {/* {(() => {
                     // Extract deadline days for August 2025 from all non-approved choices
                     const allChoices = [...cabinetChoices, ...paintChoices, ...flooringChoices, ...plumbingFixtureChoices];
                     const augustDeadlineDays = allChoices
@@ -845,8 +941,259 @@ export default function ColorChoices() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
+
+        {/* Vertical GANTT Chart */}
+        {/* <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-8 mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 flex items-center gap-2">
+            <span>📊</span>
+            <span>Project Timeline - GANTT Chart</span>
+          </h2>
+          
+          <div className="overflow-x-auto">
+            <div className="min-w-[800px]">
+              {/* Timeline Header */}
+              {/* <div className="flex mb-6 border-b border-gray-200 dark:border-gray-700 pb-4">
+                <div className="w-48 md:w-64 flex-shrink-0">
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-100 text-xs md:text-sm">Tasks & Milestones</h3>
+                </div>
+                <div className="flex-1 min-w-0">
+                  {/* Month Headers */}
+                  {/* <div className="flex mb-2 text-center">
+                    <div className="flex-1 text-xs font-semibold text-gray-600 dark:text-gray-400 border-r border-gray-300 dark:border-gray-600">August 2025</div>
+                    <div className="flex-1 text-xs font-semibold text-gray-600 dark:text-gray-400 border-r border-gray-300 dark:border-gray-600">September</div>
+                    <div className="flex-1 text-xs font-semibold text-gray-600 dark:text-gray-400 border-r border-gray-300 dark:border-gray-600">October</div>
+                    <div className="flex-1 text-xs font-semibold text-gray-600 dark:text-gray-400 border-r border-gray-300 dark:border-gray-600">November</div>
+                    <div className="flex-1 text-xs font-semibold text-gray-600 dark:text-gray-400">December</div>
+                  </div>
+                  {/* Week Headers */}
+                  {/* <div className="flex text-center">
+                    {/* August weeks */}
+                    {/* <div className="flex-1 grid grid-cols-4 gap-px">
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W1</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W2</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W3</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W4</div>
+                    </div>
+                    {/* September weeks */}
+                    {/* <div className="flex-1 grid grid-cols-4 gap-px">
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W1</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W2</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W3</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W4</div>
+                    </div>
+                    {/* October weeks */}
+                    {/* <div className="flex-1 grid grid-cols-4 gap-px">
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W1</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W2</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W3</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W4</div>
+                    </div>
+                    {/* November weeks */}
+                    {/* <div className="flex-1 grid grid-cols-4 gap-px">
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W1</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W2</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W3</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W4</div>
+                    </div>
+                    {/* December weeks */}
+                    {/* <div className="flex-1 grid grid-cols-4 gap-px">
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W1</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W2</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W3</div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400">W4</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* GANTT Rows */}
+              {/* <div className="space-y-3">
+                {/* Interior Paint Application */}
+                {/* <div className="flex items-center">
+                  <div className="w-48 md:w-64 flex-shrink-0 pr-2 md:pr-4">
+                    <div className="text-xs md:text-sm font-medium text-gray-900 dark:text-gray-100">Interior Paint Application</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">Sep 1 - Sep 15</div>
+                  </div>
+                  <div className="flex-1 grid grid-cols-20 gap-px h-6">
+                    <div className="col-span-4"></div>
+                    {/* Sep W1-W2 */}
+                    {/* <div className="bg-blue-200 dark:bg-blue-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-blue-400 dark:bg-blue-600 rounded-sm" style={{width: '100%'}}></div>
+                    </div>
+                    <div className="bg-blue-200 dark:bg-blue-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-blue-400 dark:bg-blue-600 rounded-sm" style={{width: '70%'}}></div>
+                    </div>
+                    <div className="col-span-14"></div>
+                  </div>
+                </div>
+
+                {/* Cabinet Installation */}
+                {/* <div className="flex items-center">
+                  <div className="w-48 md:w-64 flex-shrink-0 pr-2 md:pr-4">
+                    <div className="text-xs md:text-sm font-medium text-gray-900 dark:text-gray-100">Cabinet Installation</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">Sep 15 - Oct 15</div>
+                  </div>
+                  <div className="flex-1 grid grid-cols-20 gap-px h-6">
+                    <div className="col-span-5"></div>
+                    {/* Sep W3-W4 */}
+                    {/* <div className="bg-green-200 dark:bg-green-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-green-400 dark:bg-green-600 rounded-sm" style={{width: '50%'}}></div>
+                    </div>
+                    <div className="bg-green-200 dark:bg-green-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-green-400 dark:bg-green-600 rounded-sm" style={{width: '100%'}}></div>
+                    </div>
+                    {/* Oct W1-W2 */}
+                    {/* <div className="bg-green-200 dark:bg-green-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-green-400 dark:bg-green-600 rounded-sm" style={{width: '100%'}}></div>
+                    </div>
+                    <div className="bg-green-200 dark:bg-green-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-green-400 dark:bg-green-600 rounded-sm" style={{width: '70%'}}></div>
+                    </div>
+                    <div className="col-span-10"></div>
+                  </div>
+                </div>
+
+                {/* Flooring Installation */}
+                {/* <div className="flex items-center">
+                  <div className="w-48 md:w-64 flex-shrink-0 pr-2 md:pr-4">
+                    <div className="text-xs md:text-sm font-medium text-gray-900 dark:text-gray-100">Flooring Installation</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">Sep 25 - Oct 25</div>
+                  </div>
+                  <div className="flex-1 grid grid-cols-20 gap-px h-6">
+                    <div className="col-span-7"></div>
+                    {/* Sep W4 partial */}
+                    {/* <div className="bg-yellow-200 dark:bg-yellow-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-yellow-400 dark:bg-yellow-600 rounded-sm" style={{width: '30%'}}></div>
+                    </div>
+                    {/* Oct W1-W3 */}
+                    {/* <div className="bg-yellow-200 dark:bg-yellow-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-yellow-400 dark:bg-yellow-600 rounded-sm" style={{width: '100%'}}></div>
+                    </div>
+                    <div className="bg-yellow-200 dark:bg-yellow-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-yellow-400 dark:bg-yellow-600 rounded-sm" style={{width: '100%'}}></div>
+                    </div>
+                    <div className="bg-yellow-200 dark:bg-yellow-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-yellow-400 dark:bg-yellow-600 rounded-sm" style={{width: '80%'}}></div>
+                    </div>
+                    <div className="col-span-9"></div>
+                  </div>
+                </div>
+
+                {/* Plumbing Fixtures */}
+                {/* <div className="flex items-center">
+                  <div className="w-48 md:w-64 flex-shrink-0 pr-2 md:pr-4">
+                    <div className="text-xs md:text-sm font-medium text-gray-900 dark:text-gray-100">Plumbing Fixtures</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">Oct 1 - Oct 15</div>
+                  </div>
+                  <div className="flex-1 grid grid-cols-20 gap-px h-6">
+                    <div className="col-span-8"></div>
+                    {/* Oct W1-W2 */}
+                    {/* <div className="bg-purple-200 dark:bg-purple-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-purple-400 dark:bg-purple-600 rounded-sm" style={{width: '100%'}}></div>
+                    </div>
+                    <div className="bg-purple-200 dark:bg-purple-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-purple-400 dark:bg-purple-600 rounded-sm" style={{width: '70%'}}></div>
+                    </div>
+                    <div className="col-span-10"></div>
+                  </div>
+                </div>
+
+                {/* Light Fixtures */}
+                {/* <div className="flex items-center">
+                  <div className="w-48 md:w-64 flex-shrink-0 pr-2 md:pr-4">
+                    <div className="text-xs md:text-sm font-medium text-gray-900 dark:text-gray-100">Light Fixtures</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">Oct 15 - Nov 1</div>
+                  </div>
+                  <div className="flex-1 grid grid-cols-20 gap-px h-6">
+                    <div className="col-span-9"></div>
+                    {/* Oct W3 partial */}
+                    {/* <div className="bg-indigo-200 dark:bg-indigo-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-indigo-400 dark:bg-indigo-600 rounded-sm" style={{width: '50%'}}></div>
+                    </div>
+                    <div className="bg-indigo-200 dark:bg-indigo-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-indigo-400 dark:bg-indigo-600 rounded-sm" style={{width: '100%'}}></div>
+                    </div>
+                    {/* Nov W1 partial */}
+                    {/* <div className="bg-indigo-200 dark:bg-indigo-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-indigo-400 dark:bg-indigo-600 rounded-sm" style={{width: '10%'}}></div>
+                    </div>
+                    <div className="col-span-8"></div>
+                  </div>
+                </div>
+
+                {/* Exterior Paint Application */}
+                {/* <div className="flex items-center">
+                  <div className="w-48 md:w-64 flex-shrink-0 pr-2 md:pr-4">
+                    <div className="text-xs md:text-sm font-medium text-gray-900 dark:text-gray-100">Exterior Paint Application</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">Nov 1 - Nov 15</div>
+                  </div>
+                  <div className="flex-1 grid grid-cols-20 gap-px h-6">
+                    <div className="col-span-12"></div>
+                    {/* Nov W1-W2 */}
+                    {/* <div className="bg-orange-200 dark:bg-orange-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-orange-400 dark:bg-orange-600 rounded-sm" style={{width: '100%'}}></div>
+                    </div>
+                    <div className="bg-orange-200 dark:bg-orange-800 rounded-sm relative">
+                      <div className="absolute inset-0 bg-orange-400 dark:bg-orange-600 rounded-sm" style={{width: '70%'}}></div>
+                    </div>
+                    <div className="col-span-6"></div>
+                  </div>
+                </div>
+
+                {/* Final Walkthrough */}
+                {/* <div className="flex items-center">
+                  <div className="w-48 md:w-64 flex-shrink-0 pr-2 md:pr-4">
+                    <div className="text-xs md:text-sm font-medium text-gray-900 dark:text-gray-100">Final Walkthrough</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">Nov 15</div>
+                  </div>
+                  <div className="flex-1 grid grid-cols-20 gap-px h-6">
+                    <div className="col-span-13"></div>
+                    <div className="bg-emerald-400 dark:bg-emerald-600 rounded-full w-4 h-4 mx-auto flex items-center justify-center">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <div className="col-span-6"></div>
+                  </div>
+                </div>
+
+                {/* Project Completion */}
+                {/* <div className="flex items-center">
+                  <div className="w-48 md:w-64 flex-shrink-0 pr-2 md:pr-4">
+                    <div className="text-xs md:text-sm font-medium text-gray-900 dark:text-gray-100">Project Completion</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">Dec 15</div>
+                  </div>
+                  <div className="flex-1 grid grid-cols-20 gap-px h-6">
+                    <div className="col-span-17"></div>
+                    <div className="bg-emerald-500 dark:bg-emerald-700 rounded-full w-6 h-6 mx-auto flex items-center justify-center">
+                      <span className="text-white text-sm font-bold">🎉</span>
+                    </div>
+                    <div className="col-span-2"></div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Legend */}
+              {/* <div className="mt-6 pt-4 border-t border-gray-200 dark:border-gray-700">
+                <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-3">Legend:</h4>
+                <div className="flex flex-wrap gap-4 text-xs">
+                  <div className="flex items-center gap-2">
+                    <div className="w-4 h-3 bg-gray-200 dark:bg-gray-600 rounded-sm relative">
+                      <div className="absolute inset-0 bg-gray-400 dark:bg-gray-500 rounded-sm" style={{width: '60%'}}></div>
+                    </div>
+                    <span className="text-gray-600 dark:text-gray-400">Progress (Light = Planned, Dark = Complete)</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-4 h-4 bg-emerald-400 dark:bg-emerald-600 rounded-full flex items-center justify-center">
+                      <span className="text-white text-xs">✓</span>
+                    </div>
+                    <span className="text-gray-600 dark:text-gray-400">Milestone</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
 
         {/* Modal */}
         {selectedChoice && (
