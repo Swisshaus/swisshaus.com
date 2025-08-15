@@ -4,6 +4,7 @@ import Container from "@/app/components/container";
 import Header from "@/app/components/header";
 import { useState } from "react";
 import { useLightbox } from '../contexts/LightboxContext';
+import Link from "next/link";
 
 interface ColorChoice {
   id: string;
@@ -183,7 +184,7 @@ const paintChoices: ColorChoice[] = [
     id: 'exterior-paint',
     title: 'Exterior Paint',
     description: 'Exterior Paint for the main siding, as well as the Board and Batton Bump-outs',
-    deadline: 'August 13, 2025',
+    deadline: 'August 21, 2025',
     status: 'pending',
     photos: [
       '/assets/blog/pr7/color-board/Paint/Light/PR7-Paint-8.webp',
@@ -517,9 +518,178 @@ export default function ColorChoices() {
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-gray-100 mb-4 leading-tight">
               Porter Ranch 7 Color Board
             </h1>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-6">
               Track your selections, deadlines, and approvals in one place
             </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link 
+                href="/project-timeline"
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
+              >
+                📊 View GANTT Chart
+              </Link>
+              <Link 
+                href="/posts/pr7"
+                className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
+              >
+                📝 PR7 Main Page
+              </Link>
+            </div>
+          </div>
+
+          {/* Upcoming Deadlines - Urgent Section */}
+          <div className="mb-12 p-8 bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 border-2 border-red-200 dark:border-red-700 rounded-xl">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-3xl">⚠️</span>
+              <h2 className="text-3xl font-bold text-red-800 dark:text-red-200">Upcoming Deadlines</h2>
+            </div>
+            <p className="text-red-700 dark:text-red-300 mb-6 text-lg">
+              These selections need immediate attention to stay on schedule:
+            </p>
+            
+            {/* Urgent Choice Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+              {/* Tile Selection */}
+              {(() => {
+                const tileChoice = tileChoices.find(choice => choice.id === 'tile-selection');
+                return tileChoice ? (
+                  <div 
+                    key={tileChoice.id}
+                    onClick={() => openModal(tileChoice)}
+                    className="rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 overflow-hidden bg-white dark:bg-gray-800 cursor-pointer group border-2 border-red-300 dark:border-red-600"
+                  >
+                    <div className="h-48 overflow-hidden relative">
+                      <img 
+                        src={tileChoice.photos[0]} 
+                        alt={tileChoice.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
+                        data-no-lightbox="true"
+                      />
+                      <div className="absolute top-2 right-2 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-bold">
+                        URGENT
+                      </div>
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">
+                        {tileChoice.title}
+                      </h3>
+                      <div 
+                        className="mb-4 leading-relaxed text-gray-600 dark:text-gray-300"
+                        dangerouslySetInnerHTML={{ __html: tileChoice.description }}
+                      />
+                      <div className="flex justify-between items-center flex-wrap gap-4">
+                        <div>
+                          <div className="text-xs font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider mb-1">
+                            Deadline
+                          </div>
+                          <div className="text-sm font-semibold text-red-800 dark:text-red-300">
+                            {tileChoice.deadline}
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-2 rounded-full text-sm font-semibold bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300">
+                          <span>⏳</span>
+                          <span>Pending</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : null;
+              })()}
+
+              {/* Flooring Selection */}
+              {(() => {
+                const flooringChoice = flooringChoices.find(choice => choice.id === 'flooring-glacier');
+                return flooringChoice ? (
+                  <div 
+                    key={flooringChoice.id}
+                    onClick={() => openModal(flooringChoice)}
+                    className="rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 overflow-hidden bg-white dark:bg-gray-800 cursor-pointer group border-2 border-red-300 dark:border-red-600"
+                  >
+                    <div className="h-48 overflow-hidden relative">
+                      <img 
+                        src={flooringChoice.photos[0]} 
+                        alt={flooringChoice.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
+                        data-no-lightbox="true"
+                      />
+                      <div className="absolute top-2 right-2 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-bold">
+                        URGENT
+                      </div>
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">
+                        {flooringChoice.title}
+                      </h3>
+                      <div 
+                        className="mb-4 leading-relaxed text-gray-600 dark:text-gray-300"
+                        dangerouslySetInnerHTML={{ __html: flooringChoice.description }}
+                      />
+                      <div className="flex justify-between items-center flex-wrap gap-4">
+                        <div>
+                          <div className="text-xs font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider mb-1">
+                            Deadline
+                          </div>
+                          <div className="text-sm font-semibold text-red-800 dark:text-red-300">
+                            {flooringChoice.deadline}
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-2 rounded-full text-sm font-semibold bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300">
+                          <span>🔄</span>
+                          <span>Favored</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : null;
+              })()}
+
+              {/* Exterior Paint Selection */}
+              {(() => {
+                const paintChoice = paintChoices.find(choice => choice.id === 'exterior-paint');
+                return paintChoice ? (
+                  <div 
+                    key={paintChoice.id}
+                    onClick={() => openModal(paintChoice)}
+                    className="rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 overflow-hidden bg-white dark:bg-gray-800 cursor-pointer group border-2 border-red-300 dark:border-red-600"
+                  >
+                    <div className="h-48 overflow-hidden relative">
+                      <img 
+                        src={paintChoice.photos[0]} 
+                        alt={paintChoice.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
+                        data-no-lightbox="true"
+                      />
+                      <div className="absolute top-2 right-2 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-bold">
+                        URGENT
+                      </div>
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">
+                        {paintChoice.title}
+                      </h3>
+                      <div 
+                        className="mb-4 leading-relaxed text-gray-600 dark:text-gray-300"
+                        dangerouslySetInnerHTML={{ __html: paintChoice.description }}
+                      />
+                      <div className="flex justify-between items-center flex-wrap gap-4">
+                        <div>
+                          <div className="text-xs font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider mb-1">
+                            Deadline
+                          </div>
+                          <div className="text-sm font-semibold text-red-800 dark:text-red-300">
+                            {paintChoice.deadline}
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-2 px-3 py-2 rounded-full text-sm font-semibold bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300">
+                          <span>⏳</span>
+                          <span>Pending</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : null;
+              })()}
+            </div>
           </div>
 
           {/* Color Choice Dashboard */}
