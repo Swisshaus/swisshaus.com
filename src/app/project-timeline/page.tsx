@@ -26,7 +26,7 @@ const tasks: Task[] = [
     endDate: '2025-08-23',
     duration: 1,
     category: 'exterior',
-    status: 'client-deadline'
+    status: 'completed'
   },
   {
     id: 'select-plumbing-fixtures-deadline',
@@ -44,7 +44,7 @@ const tasks: Task[] = [
     endDate: '2025-08-25',
     duration: 1,
     category: 'interior',
-    status: 'client-deadline'
+    status: 'completed'
   },
   {
     id: 'wood-floor-selection-deadline',
@@ -53,7 +53,7 @@ const tasks: Task[] = [
     endDate: '2025-08-24',
     duration: 1,
     category: 'interior',
-    status: 'client-deadline'
+    status: 'completed'
   },
   {
     id: 'countertop-selection-deadline',

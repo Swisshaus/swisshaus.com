@@ -183,10 +183,11 @@ const paintChoices: ColorChoice[] = [
   {
     id: 'exterior-paint',
     title: 'Exterior Paint',
-    description: 'Exterior Paint for the main siding, as well as the Board and Batton Bump-outs',
+    description: 'Exterior Paint for the main siding, as well as the Board and Batten Bump-outs',
     deadline: 'August 21, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
+      '/assets/blog/pr7/color-board/Paint/Finals/PR7-Creme-InTheNavy.jpg',
       '/assets/blog/pr7/color-board/Paint/Light/PR7-Paint-8.webp',
       '/assets/blog/pr7/color-board/Paint/Light/PR7-Paint-5.webp',
       '/assets/blog/pr7/color-board/Paint/Light/PR7-Paint-6.webp',
@@ -211,20 +212,21 @@ const paintChoices: ColorChoice[] = [
       '/assets/blog/Lidstrom/alpine-meadow-11.jpg',
       '/assets/blog/Lidstrom/alpine-meadow-20.jpg'
     ],
-    notes: 'The planned colors were Iron Ore on the main lap siding, and a darker brown rusty-color on the board and batton bump outs. Iron Ore is the color the other home in these photos was painted. You can see the compliments to the rusted Corten roofing that PR7 would share. Take note: These colorized simulations of paint do not reflect acurately the actual painted siding. Samples can be put up to ensure the color choice.'
+    notes: 'Selected colors: Body - Creme SW 7556, Accent - In the Navy SW 9178. This elegant color combination features a warm, creamy base with sophisticated navy accents that complement the rusted Corten roofing. The contrast between the light body color and dark navy accents creates visual interest while maintaining a timeless, classic appearance.'
   },
   {
-    id: 'exterior-paint-board-batton',
+    id: 'exterior-paint-board-batten',
     title: 'Exterior Paint - Board & Batton - Bump Out',
     description: '',
     deadline: 'August 13, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
+      '/assets/blog/pr7/color-board/Paint/Finals/PR7-Creme-InTheNavy.jpg',
       '/assets/blog/pr7/color-board/Paint/PR7-Paint-Rust.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Home-Example.webp',
       '/assets/blog/pr7/color-board/Paint/PR7-Home-Example-2.webp'
     ],
-    notes: 'The board and batton bump-out sections will feature a darker brown rusty-color that creates beautiful contrast with the main Iron Ore lap siding. This color choice complements the rusted Corten roofing material and adds visual interest to the exterior design. The warm, earthy tone provides depth and character to the architectural features while maintaining harmony with the overall color palette.'
+    notes: 'The board and batten bump-out sections will feature In The Navy SW 9178 as the accent color, creating a sophisticated contrast with the main Creme SW 7556 lap siding. This deep navy color provides elegant definition to the architectural features while maintaining harmony with the overall exterior color palette.'
   }
 ];
 
@@ -235,7 +237,7 @@ const flooringChoices: ColorChoice[] = [
     title: 'Flooring - Glacier',
     description: '• <strong>Construction:</strong> Engineered 6 Ply Core<br/>• <strong>Length:</strong> Random Length up to 72"<br/>• <strong>Width:</strong> 7.5"<br/>• <strong>Species:</strong> European Oak<br/>• <strong>Texture:</strong> Wirebrush<br/>• <strong>Finish:</strong> UV Cured Finish<br/>• <strong>Gloss:</strong> Matte<br/>• <strong>Warranty:</strong> 20 Year Limited Residential',
     deadline: 'August 22, 2025',
-    status: 'favored',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-14.jpg',
       '/assets/blog/pr7/Scandinavian/pr7-CB-Scandanavian-1-2.jpg',
@@ -259,7 +261,7 @@ const flooringChoices: ColorChoice[] = [
       '/assets/blog/pr7/color-board/Flooring-Glacier/pr7-CB-Nordic-1.jpg',
       '/assets/blog/pr7/color-board/Flooring-Glacier/pr7-CB-Nordic.jpg'
     ],
-    notes: 'This flooring option provides excellent durability and matches the Scandinavian aesthetic perfectly.'
+    notes: 'APPROVED SELECTION: The Cordalera - Lake, Glacier. This flooring option provides excellent durability and matches the Scandinavian aesthetic perfectly with its clean, minimalist appearance.'
   }
 ];
 
@@ -331,12 +333,14 @@ const tileChoices: ColorChoice[] = [
     title: 'Tile Selection',
     description: 'Sample sourced from Flooring America. Sample pictured: The Masonry Center - Union in Platinum White',
     deadline: 'August 25, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/pr7-CB-Nordic.jpg',
       '/assets/blog/pr7/color-board/pr7-CB-Door-3.jpg'
     ],
-    notes: `<strong>Supplier Information:</strong><br/>
+    notes: `<strong>APPROVED SELECTION:</strong> The Masonry Center - Union, Platinum White<br/><br/>
+
+<strong>Supplier Information:</strong><br/>
 <a href="https://maps.app.goo.gl/Ng74XeHxjQsKRyyi6" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Flooring America - 206 W Center St Ste A, Kalispell, MT 59901</a><br/>
 Phone: <a href="tel:+1-877-240-0478" class="text-blue-600 hover:text-blue-800 underline">(877) 240-0478</a><br/><br/>
 
@@ -538,6 +542,7 @@ export default function ColorChoices() {
           </div>
 
           {/* Upcoming Deadlines - Urgent Section */}
+          {/* 
           <div className="mb-12 p-8 bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 border-2 border-red-200 dark:border-red-700 rounded-xl">
             <div className="flex items-center gap-3 mb-6">
               <span className="text-3xl">⚠️</span>
@@ -547,150 +552,11 @@ export default function ColorChoices() {
               These selections need immediate attention to stay on schedule:
             </p>
             
-            {/* Urgent Choice Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-              {/* Tile Selection */}
-              {(() => {
-                const tileChoice = tileChoices.find(choice => choice.id === 'tile-selection');
-                return tileChoice ? (
-                  <div 
-                    key={tileChoice.id}
-                    onClick={() => openModal(tileChoice)}
-                    className="rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 overflow-hidden bg-white dark:bg-gray-800 cursor-pointer group border-2 border-red-300 dark:border-red-600"
-                  >
-                    <div className="h-48 overflow-hidden relative">
-                      <img 
-                        src={tileChoice.photos[0]} 
-                        alt={tileChoice.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
-                        data-no-lightbox="true"
-                      />
-                      <div className="absolute top-2 right-2 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-bold">
-                        URGENT
-                      </div>
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">
-                        {tileChoice.title}
-                      </h3>
-                      <div 
-                        className="mb-4 leading-relaxed text-gray-600 dark:text-gray-300"
-                        dangerouslySetInnerHTML={{ __html: tileChoice.description }}
-                      />
-                      <div className="flex justify-between items-center flex-wrap gap-4">
-                        <div>
-                          <div className="text-xs font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider mb-1">
-                            Deadline
-                          </div>
-                          <div className="text-sm font-semibold text-red-800 dark:text-red-300">
-                            {tileChoice.deadline}
-                          </div>
-                        </div>
-                        <div className="flex items-center gap-2 px-3 py-2 rounded-full text-sm font-semibold bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300">
-                          <span>⏳</span>
-                          <span>Pending</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ) : null;
-              })()}
 
-              {/* Flooring Selection */}
-              {(() => {
-                const flooringChoice = flooringChoices.find(choice => choice.id === 'flooring-glacier');
-                return flooringChoice ? (
-                  <div 
-                    key={flooringChoice.id}
-                    onClick={() => openModal(flooringChoice)}
-                    className="rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 overflow-hidden bg-white dark:bg-gray-800 cursor-pointer group border-2 border-red-300 dark:border-red-600"
-                  >
-                    <div className="h-48 overflow-hidden relative">
-                      <img 
-                        src={flooringChoice.photos[0]} 
-                        alt={flooringChoice.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
-                        data-no-lightbox="true"
-                      />
-                      <div className="absolute top-2 right-2 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-bold">
-                        URGENT
-                      </div>
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">
-                        {flooringChoice.title}
-                      </h3>
-                      <div 
-                        className="mb-4 leading-relaxed text-gray-600 dark:text-gray-300"
-                        dangerouslySetInnerHTML={{ __html: flooringChoice.description }}
-                      />
-                      <div className="flex justify-between items-center flex-wrap gap-4">
-                        <div>
-                          <div className="text-xs font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider mb-1">
-                            Deadline
-                          </div>
-                          <div className="text-sm font-semibold text-red-800 dark:text-red-300">
-                            {flooringChoice.deadline}
-                          </div>
-                        </div>
-                        <div className="flex items-center gap-2 px-3 py-2 rounded-full text-sm font-semibold bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300">
-                          <span>🔄</span>
-                          <span>Favored</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ) : null;
-              })()}
-
-              {/* Exterior Paint Selection */}
-              {(() => {
-                const paintChoice = paintChoices.find(choice => choice.id === 'exterior-paint');
-                return paintChoice ? (
-                  <div 
-                    key={paintChoice.id}
-                    onClick={() => openModal(paintChoice)}
-                    className="rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 overflow-hidden bg-white dark:bg-gray-800 cursor-pointer group border-2 border-red-300 dark:border-red-600"
-                  >
-                    <div className="h-48 overflow-hidden relative">
-                      <img 
-                        src={paintChoice.photos[0]} 
-                        alt={paintChoice.title}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
-                        data-no-lightbox="true"
-                      />
-                      <div className="absolute top-2 right-2 bg-red-600 text-white px-2 py-1 rounded-full text-xs font-bold">
-                        URGENT
-                      </div>
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">
-                        {paintChoice.title}
-                      </h3>
-                      <div 
-                        className="mb-4 leading-relaxed text-gray-600 dark:text-gray-300"
-                        dangerouslySetInnerHTML={{ __html: paintChoice.description }}
-                      />
-                      <div className="flex justify-between items-center flex-wrap gap-4">
-                        <div>
-                          <div className="text-xs font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider mb-1">
-                            Deadline
-                          </div>
-                          <div className="text-sm font-semibold text-red-800 dark:text-red-300">
-                            {paintChoice.deadline}
-                          </div>
-                        </div>
-                        <div className="flex items-center gap-2 px-3 py-2 rounded-full text-sm font-semibold bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300">
-                          <span>⏳</span>
-                          <span>Pending</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ) : null;
-              })()}
             </div>
           </div>
+          */}
 
           {/* Color Choice Dashboard */}
           <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">Color Choice Dashboard</h2>
