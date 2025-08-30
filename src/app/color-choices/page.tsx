@@ -311,7 +311,7 @@ const plumbingFixtureChoices: ColorChoice[] = [
     title: 'Bathroom Vanity Sink - Kohler Ladena White',
     description: 'Kohler Ladena 22-7/8" Undermount Bathroom Sink with Overflow in White. Premium undermount design for a clean, seamless look.',
     deadline: 'August 15, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/plumbing-fixtures/kohler-ladena-sink.png'
     ],
@@ -332,7 +332,7 @@ const plumbingFixtureChoices: ColorChoice[] = [
     title: 'Master Bath Tub - Altair Ryder Freestanding',
     description: 'Altair Ryder 69" Free Standing Solid Surface Soaking Tub in Matte White. Modern oval design with ergonomic slope.',
     deadline: 'August 20, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/plumbing-fixtures/altair-ryder-tub.png'
     ],
@@ -351,6 +351,15 @@ const plumbingFixtureChoices: ColorChoice[] = [
 <a href="https://www.build.com/altair-53369-bat/s2047933?uid=4919913" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a><br/><br/>
 
 <strong>Design Notes:</strong> Same material soaking tub as the one you saw in PR5 - extra long 69" for taller users - symetrical for space. Still very heavy(good thing!) and will retain heat nicely.`
+  },
+  {
+    id: 'bath-mirrors',
+    title: 'Bath Mirrors',
+    description: 'Mirror selections for bathroom vanities throughout the home',
+    deadline: 'September 20, 2025',
+    status: 'pending',
+    photos: [],
+    notes: 'Mirror selections will complement the modern design aesthetic and coordinate with the approved vanity and lighting choices.'
   }
 ];
 
@@ -382,6 +391,24 @@ Phone: <a href="tel:+1-877-240-0478" class="text-blue-600 hover:text-blue-800 un
   }
 ];
 
+// Door Hardware choices
+const doorHardwareChoices: ColorChoice[] = [
+  {
+    id: 'door-hardware-schlage-latitude',
+    title: 'Door Hardware - Schlage Latitude Privacy Lever Set',
+    description: 'Schlage F40LAT622 Latitude Privacy Door Lever Set in Matte Black finish. Features square handle design that aligns perfectly with the modern/minimalist Scandinavian aesthetic, avoiding the maintenance issues of round faceplate hardware that can become misaligned over time.',
+    deadline: 'September 15, 2025',
+    status: 'pending',
+    photos: [
+      '/assets/blog/pr7/color-board/plumbing-fixtures/schlagehandle.png'
+    ],
+    notes: `Per our discussion about finding off-kilter door hardware a nuisance, these round faceplate door handles might be what you prefer. The square handle keeps in line with the design aesthetics of the more modern/minimalist home.<br/><br/>
+
+<strong>Product Link:</strong><br/>
+<a href="https://www.build.com/schlage-f40-lat/s506329?uid=2543055" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a>`
+  }
+];
+
 // Upgrade choices
 const upgradeChoices: ColorChoice[] = [
   {
@@ -398,13 +425,13 @@ const upgradeChoices: ColorChoice[] = [
 • Fuel Type: Natural Gas or Propane<br/>
 • Coverage: Whole House<br/>
 • Transfer Switch: Automatic<br/>
-• Warranty: 5-year limited warranty<br/><br/>
+• Warranty: 10-year limited warranty<br/><br/>
 
 <strong>Installation Includes:</strong><br/>
 • Generator unit and concrete pad<br/>
 • Automatic transfer switch<br/>
-• Gas line connection (if natural gas)<br/>
-• Electrical connections and permits<br/>
+• Gas line connection <br/>
+• Electrical connections<br/>
 • Professional installation and setup<br/><br/>
 
 <strong>Benefits:</strong><br/>
@@ -419,28 +446,17 @@ const upgradeChoices: ColorChoice[] = [
   {
     id: 'gutters',
     title: 'Gutters - Front Porch & Garage',
-    description: 'Professional gutter installation for front porch roof line and above garage doors. Seamless aluminum gutters with matching downspouts.',
-    deadline: 'October 1, 2025',
+    description: 'Professional gutter installation for front porch roof line and above garage doors. One downspout at front porch, Two downspouts at garage. Seamless aluminum gutters with matching downspouts. Pending Estimate from South Mountain Seamless Gutters.',
+    deadline: 'September 15, 2025',
     status: 'pending',
-    photos: [],
-    notes: `<strong>Gutter Specifications:</strong><br/>
-• Material: Seamless Aluminum<br/>
-• Size: 5" gutters with 3"x4" downspouts<br/>
-• Color: To match exterior trim<br/>
-• Locations: Front porch roof line and above garage doors<br/><br/>
+    photos: [
+      '/assets/blog/pr7/pr7-siding.jpg'
+    ],
+    notes: `<strong>Bid 1 - Hangtime Gutters:</strong><br/>
+• Price: $1,665.00<br/><br/>
 
-<strong>Installation Includes:</strong><br/>
-• Custom-formed seamless gutters<br/>
-• Matching downspouts and extensions<br/>
-• Professional hangers and brackets<br/>
-• Proper slope for optimal drainage<br/>
-• Clean installation with minimal disruption<br/><br/>
-
-<strong>Benefits:</strong><br/>
-• Protects foundation from water damage<br/>
-• Prevents soil erosion around home<br/>
-• Maintains landscape integrity<br/>
-• Completes the home's exterior appearance`
+<strong>Bid 2 - South Mountain Seamless Gutters:</strong><br/>
+• Status: Pending Estimate`
   },
   {
     id: 'landscape-package',
@@ -471,10 +487,12 @@ const upgradeChoices: ColorChoice[] = [
   {
     id: 'back-porch-board-batten',
     title: 'Back Porch Board & Batten - Accent Color',
-    description: 'Board and batten siding upgrade for the back porch area using the accent color to create visual continuity with the front bump-outs.',
+    description: 'Board and batten siding upgrade for the back porch area using the accent color to create visual continuity with the front bump-outs. - No Charge',
     deadline: 'October 15, 2025',
-    status: 'pending',
-    photos: [],
+    status: 'approved',
+    photos: [
+      '/assets/blog/pr7/color-board/Paint/Finals/PR7-Creme-InTheNavy.jpg'
+    ],
     notes: `<strong>Upgrade Details:</strong><br/>
 • Siding Type: Board and Batten<br/>
 • Color: In The Navy SW 9178 (accent color)<br/>
@@ -489,6 +507,201 @@ const upgradeChoices: ColorChoice[] = [
 
 
 `
+  },
+  {
+    id: 'heated-towel-bars',
+    title: 'Heated Towel Bars',
+    description: 'Amba Jeeves heated towel warmers for master and guest bathrooms. Premium stainless steel construction with self-regulating heating technology.',
+    deadline: 'October 1, 2025',
+    status: 'approved',
+    photos: [
+      'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/amba/amba-dsb-3267633.jpg'
+    ],
+    notes: `<strong>Master Bathroom - Amba Jeeves D Straight:</strong><br/>
+• Model: DS-20 with 20 horizontal bars<br/>
+• Dimensions: 21-1/4" W x 53-3/4" H x 4-1/2" D<br/>
+• Power: 240 Watts, 115V, hardwired<br/>
+• Capacity: Accommodates 4 towels<br/>
+• Price: $1,428.80 (was $1,504.00)<br/>
+<a href="https://www.build.com/amba-ds-20/s893223?uid=2259527" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Master Bathroom Option</a><br/><br/>
+
+<strong>2 Guest Bedrooms - Amba Jeeves J Straight:</strong><br/>
+• Model: JS-20 with 6 horizontal bars<br/>
+• Dimensions: 21-1/4" W x 31-3/4" H x 4-1/2" D<br/>
+• Power: 60 Watts, 115V, hardwired<br/>
+• Compact design perfect for guest bathrooms<br/>
+• Price: $714.40 each (was $752.00)<br/>
+<a href="https://www.build.com/amba-js-20/s893238?uid=2259577" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Guest Bathroom Option</a><br/><br/>
+
+<strong>Shared Features:</strong><br/>
+• 100% recyclable 304 stainless steel construction<br/>
+• Self-regulating heating technology with safety cutoff<br/>
+• Helps prevent bathroom mold and mildew<br/>
+• 10-year limited manufacturer warranty<br/>
+• Available finishes: Brushed, Matte Black, Oil Rubbed Bronze, Polished, White<br/><br/>
+
+<strong>Benefits:</strong><br/>
+• Luxury spa-like experience with warm towels<br/>
+• Reduces bathroom humidity and prevents mold<br/>
+• Energy efficient heating technology<br/>
+• Adds modern elegance to bathroom design`
+  }
+];
+
+// Light Fixtures choices
+const lightFixtureChoices: ColorChoice[] = [
+  {
+    id: 'exterior-lights-gooseneck',
+    title: 'Garage Sconces',
+    description: 'Very nice American made 16" gooseneck sconce. The blue color would add to the bump-out paint color accent bringing the whole color scheme together even more.',
+    deadline: 'September 8, 2025',
+    status: 'pending',
+    photos: [
+      'https://steellightingco.com/wp-content/uploads/2024/07/S16-25-30E-25-GB04-25-BP12-25.28.png'
+    ],
+    notes: `Very nice American made 16" gooseneck sconce. The blue color would add to the bump-out paint color accent bringing the whole color scheme together even more.<br/><br/>
+
+<strong>Product Link:</strong><br/>
+<a href="https://steellightingco.com/product/gardena-indoor-outdoor-barn-light-handcrafted-light-fixture/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Steel Lighting Co.</a>`
+  },
+  {
+    id: 'back-front-porch-sconces',
+    title: 'Back and Front Porch Sconces',
+    description: 'Hawthorne modern wall sconces for back and front porch areas',
+    deadline: 'September 8, 2025',
+    status: 'pending',
+    photos: [
+      'https://steellightingco.com/wp-content/uploads/2024/07/S08-26-30E-25-ST11-25-BP12-25.60.png'
+    ],
+    notes: `<strong>Product Link:</strong><br/>
+<a href="https://steellightingco.com/product/hawthorne-modern-wall-sconce-gooseneck-or-straight-arm-light/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Steel Lighting Co.</a>`
+  },
+  {
+    id: 'ceiling-fan',
+    title: 'Ceiling Fan',
+    description: 'Ceiling fan selections for bedrooms and living areas',
+    deadline: 'September 8, 2025',
+    status: 'pending',
+    photos: [
+      'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/minkaaire/f524-cl.jpg'
+    ],
+    notes: `<strong>Option 1 - Westinghouse:</strong><br/>
+<a href="https://www.build.com/westinghouse-7800300/s988500?uid=2437325&searchId=wtqamCToho" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a><br/><br/>
+
+<strong>Option 2 - Minka Aire Roto:</strong><br/>
+<a href="https://www.build.com/minkaaire-roto/s959054?uid=3540266" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a>`
+  },
+  {
+    id: 'ceiling-fan-living-room',
+    title: 'Ceiling Fan - Living Room',
+    description: 'Ceiling fan selection for the living room area',
+    deadline: 'September 8, 2025',
+    status: 'pending',
+    photos: [
+      'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/minkaaire/f524-cl.jpg'
+    ],
+    notes: `<strong>Product Link:</strong><br/>
+<a href="https://www.build.com/minkaaire-roto-xl/s1225735?uid=4000246" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a>`
+  },
+  {
+    id: 'bathroom-vanity-lights',
+    title: 'Bathroom Vanity Lights',
+    description: 'Vanity lighting fixtures for all bathroom mirrors',
+    deadline: 'September 8, 2025',
+    status: 'pending',
+    photos: [
+      'https://steellightingco.com/wp-content/uploads/2024/07/S88-1M-30E-1M-VT18-1M-PRO8-1M-BP12-1M.png'
+    ],
+    notes: `<strong>Option 1 - Minka Lavery Auresa:</strong><br/>
+<a href="https://www.build.com/minka-lavery-2792/s1852794?uid=4544069&searchId=4WB8g1sMsm" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a><br/><br/>
+
+<strong>Option 2 - Steel Lighting Co. Modern Vanity Light:</strong><br/>
+<a href="https://steellightingco.com/product/small-modern-kitchen-sink-light-contemporary-vanity/?attribute_pa_color=matte-black&attribute_pa_interior-color=white&attribute_pa_mounting-style=20-5-width&attribute_pa_mpn=400000001421" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Steel Lighting Co.</a>`
+  },
+  {
+    id: 'master-tub-chandelier',
+    title: 'Master Tub Chandelier',
+    description: 'Steel Lighting Co. Brentwood chandelier in Navy Blue exterior with white interior for the master bathroom tub area',
+    deadline: 'September 8, 2025',
+    status: 'pending',
+    photos: [
+      'https://steellightingco.com/wp-content/uploads/2023/10/B14-1M-30A-1M-PC48-01-CN01-1M-resized.png'
+    ],
+    notes: `Navy Blue exterior with white interior configuration.<br/><br/>
+
+<strong>Product Link:</strong><br/>
+<a href="https://steellightingco.com/product/brentwood-steel-ceiling-light-modern-farmhouse-kitchen-island-light/?attribute_pa_color=hunter-green&attribute_pa_interior-color=hunter-green&attribute_pa_mounting-style=4-ft-black-cord" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Steel Lighting Co.</a>`
+  },
+  {
+    id: 'dining-room-chandelier',
+    title: 'Dining Room Chandelier',
+    description: 'Statement chandelier for the dining room',
+    deadline: 'September 8, 2025',
+    status: 'pending',
+    photos: [
+      'https://steellightingco.com/wp-content/uploads/2024/08/B24-1M-30A-1M-PC48-01-CN01-1M-resized.png',
+      'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/millenniumlighting/millennium-lighting-99005-mb-8134424.jpg'
+    ],
+    notes: `<strong>Option 1 - Millennium Lighting Warhol:</strong><br/>
+<a href="https://www.build.com/millennium-lighting-99005/s1978052?uid=4692373&searchId=RgQ2Q4u6xJ" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a><br/><br/>
+
+<strong>Option 2 - Steel Lighting Co. Large Bowl Pendant (Navy Blue with White Interior):</strong><br/>
+<a href="https://steellightingco.com/product/modern-farmhouse-kitchen-island-light-large-bowl-pendant/?attribute_pa_color=matte-black&attribute_pa_interior-color=white&attribute_pa_mounting-style=4-ft-black-cord&attribute_pa_mpn=400000001500" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Steel Lighting Co.</a>`
+  },
+  {
+    id: 'kitchen-pendants',
+    title: 'Kitchen Pendants',
+    description: 'Steel Lighting Co. pendant lights in Navy Blue finish. American-made farmhouse pendant lights perfect for kitchen islands.',
+    deadline: 'September 8, 2025',
+    status: 'pending',
+    photos: [
+      'https://steellightingco.com/wp-content/uploads/2024/07/S08-14-30A-14-PC48-01-CN01-1M.png',
+      'https://steellightingco.com/wp-content/uploads/2024/07/L08-1M-30A-1M-PC48-01-CN01-1M-1.png'
+    ],
+    notes: `Both options in Navy Blue finish.<br/><br/>
+
+<strong>Option 1 - Inglewood:</strong><br/>
+<a href="https://steellightingco.com/product/inglewood-small-industrial-steel-light-island-or-entryway-pendant/?attribute_pa_color=cream&attribute_pa_interior-color=cream&attribute_pa_mounting-style=4-ft-black-cord&attribute_pa_mpn=400000001401" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Inglewood on Steel Lighting Co.</a><br/><br/>
+
+<strong>Option 2 - Laurel:</strong><br/>
+<a href="https://steellightingco.com/product/laurel-kitchen-island-or-sink-pendant-small-modern-ceiling-light/?attribute_pa_color=matte-black&attribute_pa_interior-color=white&attribute_pa_mounting-style=4-ft-black-cord&attribute_pa_mpn=400000001419" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Laurel on Steel Lighting Co.</a>`
+  }
+];
+
+// Countertop choices
+const countertopChoices: ColorChoice[] = [
+  {
+    id: 'countertop-selection',
+    title: 'Countertops',
+    description: 'Countertop selections for kitchen and bathroom areas',
+    deadline: 'September 7, 2025',
+    status: 'pending',
+    photos: [
+      '/assets/blog/pr7/color-board/pr7-CB-Option-A.png'
+    ],
+    notes: 'Countertop selections to complement the approved cabinet finishes and overall design aesthetic.'
+  }
+];
+
+// Closet Design choices
+const closetDesignChoices: ColorChoice[] = [
+  {
+    id: 'closet-design',
+    title: 'Closet Design',
+    description: 'Custom closet storage solutions for all bedrooms including master, guest office, and guest bedrooms.',
+    deadline: 'September 5, 2025',
+    status: 'pending',
+    photos: [
+      '/assets/blog/pr7/color-board/Closets/Master.png'
+    ],
+    notes: `Custom closet designs for all bedrooms:<br/>
+• Master Bedroom Closet<br/>
+• Guest (Office) Closet<br/>
+• Guest 2 Closet<br/>
+• Guest 3 Closet<br/><br/>
+
+<strong>View Detailed Designs:</strong><br/>
+<a href="/closet-design" class="text-blue-600 hover:text-blue-800 underline">View Closet Design Page</a>`
   }
 ];
 
@@ -498,9 +711,11 @@ const categories = [
   { name: "Paint", choices: paintChoices },
   { name: "Flooring", choices: flooringChoices },
   { name: "Tile", choices: tileChoices },
-  { name: "Countertops", choices: [] },
+  { name: "Countertops", choices: countertopChoices },
+  { name: "Door Hardware", choices: doorHardwareChoices },
   { name: "Plumbing Fixtures", choices: plumbingFixtureChoices },
-  { name: "Light Fixtures", choices: [] },
+  { name: "Light Fixtures", choices: lightFixtureChoices },
+  { name: "Closet Design", choices: closetDesignChoices },
   { name: "Upgrades", choices: upgradeChoices }
 ];
 
@@ -670,6 +885,12 @@ export default function ColorChoices() {
                 className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
               >
                 📊 View GANTT Chart
+              </Link>
+              <Link 
+                href="/closet-design"
+                className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
+              >
+                🗂️ Closet Design
               </Link>
               <Link 
                 href="/posts/pr7"

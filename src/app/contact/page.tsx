@@ -83,7 +83,7 @@ export default function Contact() {
                   </p>
                  </div>
                     <p className="text-lg text-center mb-12">
-                      We'd love to hear about your project. Please give us a call or fill out the form below and we'll be in touch soon.
+                      We'd love to hear about your project. Please give us a call and we'll be in touch soon.
                     </p>
                     
           {status.message && (

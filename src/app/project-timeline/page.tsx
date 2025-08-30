@@ -82,7 +82,7 @@ const tasks: Task[] = [
     endDate: '2025-08-22',
     duration: 9,
     category: 'structure',
-    status: 'in-progress'
+    status: 'completed'
   },
 
   // Paint
@@ -93,7 +93,7 @@ const tasks: Task[] = [
     endDate: '2025-08-29',
     duration: 5,
     category: 'exterior',
-    status: 'upcoming'
+    status: 'in-progress'
   },
   {
     id: 'paint-interior',
@@ -102,7 +102,7 @@ const tasks: Task[] = [
     endDate: '2025-09-12',
     duration: 12,
     category: 'interior',
-    status: 'upcoming'
+    status: 'in-progress'
   },
 
   // Electrical
