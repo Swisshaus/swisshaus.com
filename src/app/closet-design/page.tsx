@@ -169,7 +169,7 @@ export default function ClosetDesign() {
               </p>
               
               <p>
-                <strong>Easy Ordering:</strong> Need more storage? Visit the <a href="https://www.ikea.com/us/en/cat/pax-system-19086/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">IKEA PAX System page</a> to browse and order additional components, shelves, drawers, and accessories to expand or modify your closet designs.
+                <strong>Easy Ordering:</strong> Need more storage? Visit the <a href="https://www.ikea.com/us/en/cat/pax-system-19086/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">IKEA PAX System page</a> to browse and order additional components, shelves, drawers, and accessories to expand or modify your closet designs.
               </p>
             </div>
           </div>
