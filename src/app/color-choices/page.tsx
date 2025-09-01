@@ -396,9 +396,9 @@ const doorHardwareChoices: ColorChoice[] = [
   {
     id: 'door-hardware-schlage-latitude',
     title: 'Door Hardware - Schlage Latitude Privacy Lever Set',
-    description: 'Schlage F40LAT622 Latitude Privacy Door Lever Set in Matte Black finish. Features square handle design that aligns perfectly with the modern/minimalist Scandinavian aesthetic, avoiding the maintenance issues of round faceplate hardware that can become misaligned over time.',
+    description: 'Schlage Latitude Privacy Door Lever Set, F40LAT622, Matte Black',
     deadline: 'September 15, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/plumbing-fixtures/schlagehandle.png'
     ],
@@ -545,6 +545,50 @@ const upgradeChoices: ColorChoice[] = [
 • Reduces bathroom humidity and prevents mold<br/>
 • Energy efficient heating technology<br/>
 • Adds modern elegance to bathroom design`
+  },
+  {
+    id: 'water-filtration-install',
+    title: 'Install Home Owner Supplied Whole House Water Filtration',
+    description: 'Coming soon',
+    deadline: 'September 15, 2025',
+    status: 'pending',
+    photos: [],
+    notes: 'Installation details coming soon'
+  },
+  {
+    id: 'phyn-smart-water-assistant',
+    title: 'Phyn Plus Smart Water Assistant + Shutoff',
+    description: 'Advanced smart water monitoring system with automatic leak detection and shutoff capabilities.',
+    deadline: 'September 15, 2025',
+    status: 'pending',
+    photos: [
+      'https://phyn.com/cdn/shop/files/phyn-shut-off-valves-phypf007-c3_1000px.jpg?v=1703179928&width=1000'
+    ],
+    notes: `<strong>Phyn Plus Smart Water Assistant + Shutoff (2nd Gen)</strong><br/><br/>
+
+<strong>Key Features:</strong><br/>
+• Auto Shutoff - Automatically stops water flow when leaks detected<br/>
+• Plumbing Checks - Continuous monitoring of plumbing health<br/>
+• Remote Shutoff - Control water from anywhere via smartphone<br/>
+• Leak Alerts - Instant notifications the second a leak is detected<br/>
+• Multi-Property Monitoring - Manage multiple properties from one app<br/>
+• Pre-Freeze Warnings - Alerts before pipes freeze<br/>
+• Water Use Tracking - Monitor consumption and identify waste<br/><br/>
+
+<strong>Technology:</strong><br/>
+Uses patented high-definition pressure wave analysis to detect leaks instantly and prevent costly water damage through automatic shutoff.<br/><br/>
+
+<strong>Product Link:</strong><br/>
+<a href="https://phyn.com/products/phyn-plus-smart-water-assistant-shutoff-v2" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Phyn.com</a>`
+  },
+  {
+    id: 'garage-floor-coating',
+    title: 'Garage Floor Coating - Polyurea',
+    description: 'Coming soon',
+    deadline: 'September 30, 2025',
+    status: 'pending',
+    photos: [],
+    notes: 'Details coming soon'
   }
 ];
 
@@ -553,9 +597,9 @@ const lightFixtureChoices: ColorChoice[] = [
   {
     id: 'exterior-lights-gooseneck',
     title: 'Garage Sconces',
-    description: 'Very nice American made 16" gooseneck sconce. The blue color would add to the bump-out paint color accent bringing the whole color scheme together even more.',
+    description: 'Gardena Indoor & Outdoor Barn Light, 16" Gooseneck Arm, Navy Blue (White Interior)',
     deadline: 'September 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       'https://steellightingco.com/wp-content/uploads/2024/07/S16-25-30E-25-GB04-25-BP12-25.28.png'
     ],
@@ -567,9 +611,9 @@ const lightFixtureChoices: ColorChoice[] = [
   {
     id: 'back-front-porch-sconces',
     title: 'Back and Front Porch Sconces',
-    description: 'Hawthorne modern wall sconces for back and front porch areas',
+    description: 'Hawthorne Modern Wall Sconce, 11" Straight Arm, Navy Blue (White Interior)',
     deadline: 'September 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       'https://steellightingco.com/wp-content/uploads/2024/07/S08-26-30E-25-ST11-25-BP12-25.60.png'
     ],
