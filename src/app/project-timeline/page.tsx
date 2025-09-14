@@ -62,16 +62,16 @@ const tasks: Task[] = [
     endDate: '2025-09-07',
     duration: 1,
     category: 'interior',
-    status: 'client-deadline'
+    status: 'completed'
   },
   {
     id: 'kitchen-backsplash-selection-deadline',
     name: 'Kitchen Backsplash Selection',
-    startDate: '2025-09-12',
-    endDate: '2025-09-12',
+    startDate: '2025-09-11',
+    endDate: '2025-09-11',
     duration: 1,
     category: 'interior',
-    status: 'client-deadline'
+    status: 'completed'
   },
 
   // Structure & Rough Work
@@ -93,7 +93,7 @@ const tasks: Task[] = [
     endDate: '2025-08-29',
     duration: 5,
     category: 'exterior',
-    status: 'in-progress'
+    status: 'completed'
   },
   {
     id: 'paint-interior',
@@ -102,7 +102,7 @@ const tasks: Task[] = [
     endDate: '2025-09-12',
     duration: 12,
     category: 'interior',
-    status: 'in-progress'
+    status: 'completed'
   },
 
   // Electrical
@@ -118,11 +118,11 @@ const tasks: Task[] = [
   {
     id: 'electrical-trim',
     name: 'Electrical Trim',
-    startDate: '2025-09-12',
-    endDate: '2025-09-12',
+    startDate: '2025-09-11',
+    endDate: '2025-09-11',
     duration: 1,
     category: 'mechanical',
-    status: 'upcoming'
+    status: 'completed'
   },
   {
     id: 'electrical-light-fixtures',
@@ -167,25 +167,25 @@ const tasks: Task[] = [
   {
     id: 'tile-bath-walls',
     name: 'Tile Bath Walls',
-    startDate: '2025-09-15',
+    startDate: '2025-09-10',
     endDate: '2025-09-24',
     duration: 10,
     category: 'interior',
-    status: 'upcoming'
+    status: 'in-progress'
   },
   {
     id: 'tile-floor',
     name: 'Tile Floor',
-    startDate: '2025-09-22',
-    endDate: '2025-10-01',
-    duration: 10,
+    startDate: '2025-09-11',
+    endDate: '2025-09-25',
+    duration: 14,
     category: 'interior',
-    status: 'upcoming'
+    status: 'in-progress'
   },
   {
     id: 'wood-floor',
     name: 'Wood Floor',
-    startDate: '2025-09-15',
+    startDate: '2025-09-16',
     endDate: '2025-09-26',
     duration: 12,
     category: 'interior',

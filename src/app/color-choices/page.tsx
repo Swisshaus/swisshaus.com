@@ -307,6 +307,62 @@ const plumbingFixtureChoices: ColorChoice[] = [
     notes: 'White farmhouse sink will complement the overall kitchen design with its classic, timeless appeal. The apron-front design creates a beautiful focal point, and the copper faucet adds warmth that coordinates with the honey-walnut cabinet finishes.'
   },
   {
+    id: 'kitchen-faucet',
+    title: 'Kitchen Faucet',
+    description: 'Delta Antoni 1.8 GPM Single Hole Pre-Rinse Pull Down Kitchen Faucet in Matte Black finish',
+    deadline: 'September 20, 2025',
+    status: 'pending',
+    photos: [
+      'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/kohler/kohler-r30937-bl-dst-4110376.jpg'
+    ],
+    notes: `<strong>Option 1 - Delta Antoni Pre-Rinse Pull Down Kitchen Faucet</strong><br/>
+Model: 18803-BL-DST<br/>
+Finish: Matte Black<br/>
+Flow Rate: 1.8 GPM<br/><br/>
+
+<strong>Key Features:</strong><br/>
+• Pull-down spray with magnetic docking<br/>
+• Swivel spout rotates 360 degrees<br/>
+• Single lever handle operation<br/>
+• ADA compliant design<br/>
+• Made in America<br/>
+• Limited lifetime warranty<br/><br/>
+
+<a href="https://www.build.com/delta-18803-dst/s1782381?uid=4210385" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Delta Antoni on Build.com</a><br/><br/>
+
+<strong>Option 2 - Kohler Clarus Semi-Professional Kitchen Faucet</strong><br/>
+Model: R30937-BL<br/>
+Finish: Matte Black<br/><br/>
+
+<strong>Key Features:</strong><br/>
+• Semi-professional single handle design<br/>
+• Pull-down sprayer with multiple spray functions<br/>
+• High-arc spout for maximum clearance<br/>
+• Professional-grade performance<br/>
+• Matte black finish coordinates with modern kitchen design<br/>
+• Durable construction with reliable performance<br/><br/>
+
+<a href="https://www.homedepot.com/p/KOHLER-Clarus-Semi-Professional-Single-Handle-Pull-Down-Sprayer-Kitchen-Faucet-in-Matte-Black-R30937-BL/330464675" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Kohler Clarus on Home Depot</a>`
+  },
+  {
+    id: 'master-shower-trim',
+    title: 'Master Shower Trim',
+    description: 'Coming soon',
+    deadline: 'September 25, 2025',
+    status: 'pending',
+    photos: [],
+    notes: 'Master shower trim selections and details coming soon'
+  },
+  {
+    id: 'guest-bath-trim',
+    title: 'Guest Bath Trim',
+    description: 'Coming soon',
+    deadline: 'September 25, 2025',
+    status: 'pending',
+    photos: [],
+    notes: 'Guest bathroom trim selections and details coming soon'
+  },
+  {
     id: 'bathroom-vanity-sink',
     title: 'Bathroom Vanity Sink - Kohler Ladena White',
     description: 'Kohler Ladena 22-7/8" Undermount Bathroom Sink with Overflow in White. Premium undermount design for a clean, seamless look.',
@@ -358,8 +414,61 @@ const plumbingFixtureChoices: ColorChoice[] = [
     description: 'Mirror selections for bathroom vanities throughout the home',
     deadline: 'September 20, 2025',
     status: 'pending',
-    photos: [],
-    notes: 'Mirror selections will complement the modern design aesthetic and coordinate with the approved vanity and lighting choices.'
+    photos: [
+      'https://s3.img-b.com/image/private/c_lpad,f_auto,h_450,w_450/product/kohler/kohler-k-26052-bll-3606836.jpg'
+    ],
+    notes: `<strong>Kohler Essential Rectangular Framed Bathroom Mirror</strong><br/>
+Model: K-26052<br/>
+Size: 22-1/16" W x 34-1/16" H<br/><br/>
+
+<strong>Available Finishes:</strong><br/>
+• Brushed Nickel<br/>
+• Matte Black<br/>
+• Modern Brushed Gold<br/>
+• Polished Chrome<br/><br/>
+
+<strong>Features:</strong><br/>
+• Rectangular framed design<br/>
+• Quality Kohler construction<br/>
+• Multiple finish options to coordinate with fixtures<br/><br/>
+
+<a href="https://www.build.com/kohler-k-26052/s1772868?uid=4205562&searchId=zR9FD42aMc" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a>`
+  },
+  {
+    id: 'vanity-faucet',
+    title: 'Moen Genta LX Single Handle Centerset Bathroom Faucet with Duralast Valve Technology and Pop-Up Drain Assembly',
+    description: 'Moen Genta LX Single Handle Centerset Bathroom Faucet with Duralast Valve Technology and Pop-Up Drain Assembly',
+    deadline: 'September 20, 2025',
+    status: 'pending',
+    photos: [
+      'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/moen/moen_6702_bl.jpg'
+    ],
+    notes: `<a href="https://www.build.com/moen-6702/s1247707?uid=3641320" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a>`
+  },
+  {
+    id: 'bath-towel-fixtures',
+    title: 'Bath Towel Fixtures',
+    description: 'Towel bars and bathroom accessories for all bathrooms. Two different styles suggested: Moen Genta and Moen Triva.',
+    deadline: 'September 20, 2025',
+    status: 'pending',
+    photos: [
+      'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/moen/moen-bh3824bl-1617548.jpg'
+    ],
+    notes: `<strong>Moen Genta LX 24" Towel Bar</strong><br/>
+Model: BH3824<br/>
+Length: 24"<br/><br/>
+
+<a href="https://www.build.com/moen-bh3824/s1247711?uid=3494598" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Towel Bar on Build.com</a><br/><br/>
+
+<strong>Moen Genta LX Single Robe Hook</strong><br/>
+Model: BH3803<br/><br/>
+
+<a href="https://www.build.com/moen-bh3803/s1247708?uid=3494592" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Genta LX Robe Hook on Build.com</a><br/><br/>
+
+<strong>Moen Triva Single Robe Hook</strong><br/>
+Model: BP1803<br/><br/>
+
+<a href="https://www.build.com/moen-bp1803/s1635805?uid=3878965" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Triva Robe Hook on Build.com</a>`
   }
 ];
 
@@ -551,7 +660,7 @@ const upgradeChoices: ColorChoice[] = [
     title: 'Install Home Owner Supplied Whole House Water Filtration',
     description: 'Coming soon',
     deadline: 'September 15, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [],
     notes: 'Installation details coming soon'
   },
@@ -560,7 +669,7 @@ const upgradeChoices: ColorChoice[] = [
     title: 'Phyn Plus Smart Water Assistant + Shutoff',
     description: 'Advanced smart water monitoring system with automatic leak detection and shutoff capabilities.',
     deadline: 'September 15, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       'https://phyn.com/cdn/shop/files/phyn-shut-off-valves-phypf007-c3_1000px.jpg?v=1703179928&width=1000'
     ],
@@ -580,15 +689,6 @@ Uses patented high-definition pressure wave analysis to detect leaks instantly a
 
 <strong>Product Link:</strong><br/>
 <a href="https://phyn.com/products/phyn-plus-smart-water-assistant-shutoff-v2" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Phyn.com</a>`
-  },
-  {
-    id: 'garage-floor-coating',
-    title: 'Garage Floor Coating - Polyurea',
-    description: 'Coming soon',
-    deadline: 'September 30, 2025',
-    status: 'pending',
-    photos: [],
-    notes: 'Details coming soon'
   }
 ];
 
@@ -625,7 +725,7 @@ const lightFixtureChoices: ColorChoice[] = [
     title: 'Ceiling Fan',
     description: 'Ceiling fan selections for bedrooms and living areas',
     deadline: 'September 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/minkaaire/f524-cl.jpg'
     ],
@@ -640,7 +740,7 @@ const lightFixtureChoices: ColorChoice[] = [
     title: 'Ceiling Fan - Living Room',
     description: 'Ceiling fan selection for the living room area',
     deadline: 'September 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/minkaaire/f524-cl.jpg'
     ],
@@ -648,67 +748,99 @@ const lightFixtureChoices: ColorChoice[] = [
 <a href="https://www.build.com/minkaaire-roto-xl/s1225735?uid=4000246" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a>`
   },
   {
-    id: 'bathroom-vanity-lights',
-    title: 'Bathroom Vanity Lights',
-    description: 'Vanity lighting fixtures for all bathroom mirrors',
+    id: 'master-bathroom-vanity-lights',
+    title: 'Master Bathroom Vanity Lights',
+    description: 'Steel Lighting Co. Lawndale vanity lights in Navy Blue exterior with White interior for master bathroom',
     deadline: 'September 8, 2025',
-    status: 'pending',
+    status: 'approved',
+    photos: [
+      'https://steellightingco.com/wp-content/uploads/2024/07/S08-25-30E-25-VT06-25-PR08-25-BP12-25.png'
+    ],
+    notes: `<strong>Selected: Steel Lighting | Lawndale | Navy Blue Exterior | White Interior</strong><br/>
+Mounting style/distancing deferred to contractor based on vanity mirror size.<br/><br/>
+
+<a href="https://steellightingco.com/product/small-modern-kitchen-sink-light-contemporary-vanity/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Lawndale on Steel Lighting Co.</a>`
+  },
+  {
+    id: 'guest-bathroom-vanity-lights',
+    title: 'Guest Bathrooms Vanity Lights',
+    description: 'Steel Lighting Co. Lawndale vanity lights in Matte Black exterior with White interior for guest bathrooms',
+    deadline: 'September 8, 2025',
+    status: 'approved',
     photos: [
       'https://steellightingco.com/wp-content/uploads/2024/07/S88-1M-30E-1M-VT18-1M-PRO8-1M-BP12-1M.png'
     ],
-    notes: `<strong>Option 1 - Minka Lavery Auresa:</strong><br/>
-<a href="https://www.build.com/minka-lavery-2792/s1852794?uid=4544069&searchId=4WB8g1sMsm" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a><br/><br/>
+    notes: `<strong>Selected: Steel Lighting | Lawndale | Matte Black Exterior | White Interior</strong><br/>
+Mounting style/distancing deferred to contractor based on vanity mirror size.<br/><br/>
 
-<strong>Option 2 - Steel Lighting Co. Modern Vanity Light:</strong><br/>
-<a href="https://steellightingco.com/product/small-modern-kitchen-sink-light-contemporary-vanity/?attribute_pa_color=matte-black&attribute_pa_interior-color=white&attribute_pa_mounting-style=20-5-width&attribute_pa_mpn=400000001421" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Steel Lighting Co.</a>`
+<a href="https://steellightingco.com/product/small-modern-kitchen-sink-light-contemporary-vanity/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Lawndale on Steel Lighting Co.</a>`
   },
   {
     id: 'master-tub-chandelier',
-    title: 'Master Tub Chandelier',
-    description: 'Steel Lighting Co. Brentwood chandelier in Navy Blue exterior with white interior for the master bathroom tub area',
+    title: 'Master Bathtub Pendant Light',
+    description: 'Steel Lighting Co. Brentwood pendant light in Navy Blue exterior with White interior and Gold Cloth Cord for the master bathroom tub area',
     deadline: 'September 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
-      'https://steellightingco.com/wp-content/uploads/2023/10/B14-1M-30A-1M-PC48-01-CN01-1M-resized.png'
+      'https://steellightingco.com/wp-content/uploads/2024/07/B14-25-30B-25-PC48-GG-CN03-25-scaled-1.png'
     ],
-    notes: `Navy Blue exterior with white interior configuration.<br/><br/>
+    notes: `<strong>Selected: Steel Lighting | Brentwood | Navy Blue Exterior | White Interior | Gold Cloth Cord</strong><br/><br/>
 
-<strong>Product Link:</strong><br/>
-<a href="https://steellightingco.com/product/brentwood-steel-ceiling-light-modern-farmhouse-kitchen-island-light/?attribute_pa_color=hunter-green&attribute_pa_interior-color=hunter-green&attribute_pa_mounting-style=4-ft-black-cord" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Steel Lighting Co.</a>`
+<a href="https://steellightingco.com/product/brentwood-steel-ceiling-light-modern-farmhouse-kitchen-island-light/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Brentwood on Steel Lighting Co.</a>`
   },
   {
     id: 'dining-room-chandelier',
-    title: 'Dining Room Chandelier',
-    description: 'Statement chandelier for the dining room',
+    title: 'Dining Room Pendant Light',
+    description: 'Steel Lighting Co. Westwood pendant light in Navy Blue exterior with White interior and Gold Cloth Cord.',
     deadline: 'September 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
-      'https://steellightingco.com/wp-content/uploads/2024/08/B24-1M-30A-1M-PC48-01-CN01-1M-resized.png',
-      'https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_450,h_450/product/millenniumlighting/millennium-lighting-99005-mb-8134424.jpg'
+      'https://steellightingco.com/wp-content/uploads/2024/07/B24-25-30B-25-PC48-GG-CN03-25.png'
     ],
-    notes: `<strong>Option 1 - Millennium Lighting Warhol:</strong><br/>
-<a href="https://www.build.com/millennium-lighting-99005/s1978052?uid=4692373&searchId=RgQ2Q4u6xJ" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Build.com</a><br/><br/>
+    notes: `<strong>Selected: Steel Lighting | Westwood | Navy Blue Exterior | White Interior | Gold Cloth Cord</strong><br/><br/>
 
-<strong>Option 2 - Steel Lighting Co. Large Bowl Pendant (Navy Blue with White Interior):</strong><br/>
-<a href="https://steellightingco.com/product/modern-farmhouse-kitchen-island-light-large-bowl-pendant/?attribute_pa_color=matte-black&attribute_pa_interior-color=white&attribute_pa_mounting-style=4-ft-black-cord&attribute_pa_mpn=400000001500" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on Steel Lighting Co.</a>`
+<a href="https://steellightingco.com/product/modern-farmhouse-kitchen-island-light-large-bowl-pendant/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Westwood on Steel Lighting Co.</a>`
   },
   {
     id: 'kitchen-pendants',
-    title: 'Kitchen Pendants',
-    description: 'Steel Lighting Co. pendant lights in Navy Blue finish. American-made farmhouse pendant lights perfect for kitchen islands.',
+    title: 'Kitchen Island Pendant Lights',
+    description: 'Steel Lighting Co. Laurel pendant lights in Navy Blue exterior with White interior and Gold Cloth Cord.',
     deadline: 'September 8, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
-      'https://steellightingco.com/wp-content/uploads/2024/07/S08-14-30A-14-PC48-01-CN01-1M.png',
-      'https://steellightingco.com/wp-content/uploads/2024/07/L08-1M-30A-1M-PC48-01-CN01-1M-1.png'
+      'https://steellightingco.com/wp-content/uploads/2024/07/L08-25-30B-25-PC48-GG-CN03-25.png'
     ],
-    notes: `Both options in Navy Blue finish.<br/><br/>
+    notes: `<strong>Selected: Steel Lighting | Laurel | Navy Blue Exterior | White Interior | Gold Cloth Cord</strong><br/><br/>
 
-<strong>Option 1 - Inglewood:</strong><br/>
-<a href="https://steellightingco.com/product/inglewood-small-industrial-steel-light-island-or-entryway-pendant/?attribute_pa_color=cream&attribute_pa_interior-color=cream&attribute_pa_mounting-style=4-ft-black-cord&attribute_pa_mpn=400000001401" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Inglewood on Steel Lighting Co.</a><br/><br/>
+<a href="https://steellightingco.com/product/laurel-kitchen-island-or-sink-pendant-small-modern-ceiling-light/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Laurel on Steel Lighting Co.</a>`
+  },
+  {
+    id: 'garage-ceiling-lights',
+    title: 'Garage Ceiling Lights',
+    description: 'RAB Lighting GUS17-4 LED garage ceiling light fixture for optimal garage illumination',
+    deadline: 'September 8, 2025',
+    status: 'approved',
+    photos: [
+      'https://www.rablighting.com/images/product/photo/gus17_4.png'
+    ],
+    notes: `<strong>RAB Lighting GUS17-4 LED Garage Ceiling Light</strong><br/>
+Model: GUS17-4<br/><br/>
 
-<strong>Option 2 - Laurel:</strong><br/>
-<a href="https://steellightingco.com/product/laurel-kitchen-island-or-sink-pendant-small-modern-ceiling-light/?attribute_pa_color=matte-black&attribute_pa_interior-color=white&attribute_pa_mounting-style=4-ft-black-cord&attribute_pa_mpn=400000001419" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View Laurel on Steel Lighting Co.</a>`
+<strong>Key Features:</strong><br/>
+• High-efficiency LED technology<br/>
+• Designed specifically for garage applications<br/>
+• Energy-efficient operation<br/>
+• Long-lasting LED performance<br/>
+• Professional-grade construction<br/>
+• Optimal light distribution for garage spaces<br/><br/>
+
+<strong>Benefits:</strong><br/>
+• Excellent illumination for vehicle maintenance<br/>
+• Energy savings compared to traditional fixtures<br/>
+• Minimal maintenance requirements<br/>
+• Professional appearance<br/><br/>
+
+<a href="https://www.rablighting.com/product/GUS17-4" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">View on RAB Lighting</a>`
   }
 ];
 
@@ -719,7 +851,7 @@ const countertopChoices: ColorChoice[] = [
     title: 'Countertops',
     description: 'Countertop selections for kitchen and bathroom areas',
     deadline: 'September 7, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/pr7-CB-Option-A.png'
     ],
@@ -734,7 +866,7 @@ const closetDesignChoices: ColorChoice[] = [
     title: 'Closet Design',
     description: 'Custom closet storage solutions for all bedrooms including master, guest office, and guest bedrooms.',
     deadline: 'September 5, 2025',
-    status: 'pending',
+    status: 'approved',
     photos: [
       '/assets/blog/pr7/color-board/Closets/Master.png'
     ],

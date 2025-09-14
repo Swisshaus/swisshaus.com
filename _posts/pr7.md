@@ -20,6 +20,7 @@ ogImage:
 * **Layout:** 4 Bedrooms, 3.5 Bathrooms, 3-Car Garage
 * **Estimated Completion:** December 2025
 
+![Custom home building process Montana Flathead Valley](/assets/blog/pr7/September/PR7-September-9.webp)
 ![Latest progress on siding installation](/assets/blog/pr7/pr7-siding-10.webp)
 ![Siding almost finished on this custom home in Kalispell, near Whitefish Montana](/assets/blog/pr7/pr7-siding2.jpg)
 ![Lot 7 Exploded View of Floorplan](/assets/blog/pr7/ExplodedElevation.gif)
@@ -58,6 +59,20 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 
 **Progress**
 ---
+![September 2025 custom home construction progress in Kalispell Montana](/assets/blog/pr7/September/PR7-September-1.webp)
+![New construction custom home interior work Kalispell](/assets/blog/pr7/September/PR7-September-2.webp)
+![Custom home tile installation progress Bigfork area](/assets/blog/pr7/September/PR7-September-3.webp)
+![Kalispell custom home bathroom construction updates](/assets/blog/pr7/September/PR7-September-4.webp)
+![Montana custom home builder progress September](/assets/blog/pr7/September/PR7-September-5.webp)
+![New construction home interior finishing Kalispell](/assets/blog/pr7/September/PR7-September-6.webp)
+![Custom home construction updates Montana builder](/assets/blog/pr7/September/PR7-September-7.webp)
+![High End Custom Painting Interior Air Filtration](/assets/blog/pr7/September/PR7-September-16.webp)
+![Custom home building process Montana Flathead Valley](/assets/blog/pr7/September/PR7-September-9.webp)
+![September construction updates custom home Kalispell](/assets/blog/pr7/September/PR7-September-10.webp)
+![New construction home finishing work Bigfork](/assets/blog/pr7/September/PR7-September-11.webp)
+![Custom home interior construction progress Montana](/assets/blog/pr7/September/PR7-September-12.webp)
+![Kalispell custom home builder September updates](/assets/blog/pr7/September/PR7-September-13.webp)
+![New construction custom home near completion Kalispell](/assets/blog/pr7/September/PR7-September-14.webp)
 ![Siding Going on the new Porter Ranch custom home](/assets/blog/pr7/pr7-siding.jpg)
 ![Siding Going on front door on the custom house](/assets/blog/pr7/pr7-siding1.jpg)
 ![New Kalispell Custom Home for Sale](/assets/blog/pr7/pr7-stone-1.jpg)

@@ -22,7 +22,7 @@ const masterBedroomCloset: ClosetDesign = {
     '/assets/blog/pr7/color-board/Closets/Master.png',
     '/assets/blog/pr7/color-board/Closets/Master-1.png'
   ],
-  link: 'https://www.ikea.com/addon-app/storageone/pax/web/latest/us/en/?storeId=488&vpcSource=clipboard#/vpc/WFVSCT',
+  link: 'https://www.ikea.com/addon-app/storageone/pax/web/latest/us/en/?storeId=488&vpcSource=clipboard#/vpc/WGW63L',
   notes: 'Customized IKEA PAX system designed to maximize storage efficiency while maintaining the clean, minimalist aesthetic of the master bedroom.'
 };
 
@@ -33,7 +33,7 @@ const guestOfficeCloset: ClosetDesign = {
   photos: [
     '/assets/blog/pr7/color-board/Closets/Guest-Office.png'
   ],
-  link: 'https://www.ikea.com/addon-app/storageone/pax/web/latest/us/en/?storeId=488&vpcSource=clipboard#/vpc/WFVYBF',
+  link: 'https://www.ikea.com/addon-app/storageone/pax/web/latest/us/en/?storeId=488&vpcSource=clipboard#/vpc/WGQ5VS',
   notes: 'Designed to accommodate both guest clothing storage and office supplies/equipment storage.'
 };
 
@@ -44,7 +44,7 @@ const guest2Closet: ClosetDesign = {
   photos: [
     '/assets/blog/pr7/color-board/Closets/Guest-2.png'
   ],
-  link: 'https://www.ikea.com/addon-app/storageone/pax/web/latest/us/en/?storeId=488&vpcSource=clipboard#/vpc/WFW65S',
+  link: 'https://www.ikea.com/addon-app/storageone/pax/web/latest/us/en/?storeId=488&vpcSource=clipboard#/vpc/WGQ5YY',
   notes: 'Optimized for guest bedroom storage needs with hanging space and shelving.'
 };
 
@@ -55,7 +55,7 @@ const guest3Closet: ClosetDesign = {
   photos: [
     '/assets/blog/pr7/color-board/Closets/Guest-3.png'
   ],
-  link: 'https://www.ikea.com/addon-app/storageone/pax/web/latest/us/en/?storeId=488&vpcSource=clipboard#/vpc/WFW3ST',
+  link: 'https://www.ikea.com/addon-app/storageone/pax/web/latest/us/en/?storeId=488&vpcSource=clipboard#/vpc/WGQ5Y4',
   notes: 'Functional storage design suitable for guest bedroom requirements.'
 };
 
