@@ -20,6 +20,7 @@ ogImage:
 * **Layout:** 4 Bedrooms, 3.5 Bathrooms, 3-Car Garage
 * **Estimated Completion:** December 2025
 
+![October 2025 custom home construction progress in Kalispell Montana](/assets/blog/pr7/October/webp_converted/PWN00668.webp)
 ![Custom home building process Montana Flathead Valley](/assets/blog/pr7/September/PR7-September-9.webp)
 ![Latest progress on siding installation](/assets/blog/pr7/pr7-siding-10.webp)
 ![Siding almost finished on this custom home in Kalispell, near Whitefish Montana](/assets/blog/pr7/pr7-siding2.jpg)
@@ -59,6 +60,13 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 
 **Progress**
 ---
+![October 2025 custom home exterior progress Kalispell Montana](/assets/blog/pr7/October/webp_converted/PWN006800.webp)
+![October 2025 custom home construction updates Montana builder](/assets/blog/pr7/October/webp_converted/PWN00691.webp)
+![October 2025 new construction home finishing work Kalispell](/assets/blog/pr7/October/webp_converted/PWN00692.webp)
+![October 2025 custom home near completion Montana Flathead Valley](/assets/blog/pr7/October/webp_converted/PWN00694.webp)
+![October 2025 Kalispell custom home builder progress updates](/assets/blog/pr7/October/webp_converted/PWN00698.webp)
+![October 2025 new construction custom home interior work Kalispell](/assets/blog/pr7/October/webp_converted/PWN00702.webp)
+![October 2025 custom home construction final phases Montana](/assets/blog/pr7/October/webp_converted/PWN00706.webp)
 ![September 2025 custom home construction progress in Kalispell Montana](/assets/blog/pr7/September/PR7-September-1.webp)
 ![New construction custom home interior work Kalispell](/assets/blog/pr7/September/PR7-September-2.webp)
 ![Custom home tile installation progress Bigfork area](/assets/blog/pr7/September/PR7-September-3.webp)

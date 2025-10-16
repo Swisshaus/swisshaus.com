@@ -11,8 +11,11 @@ export const metadata: Metadata = {
 };
 
 export default function Projects() {
-  // Fetch all posts with category "Home-Complete"
-  const projects = getAllPosts("Home-Complete");
+  // Fetch all posts with category "Home-Complete" and "Active-Under-Contract"
+  const homeCompleteProjects = getAllPosts("Home-Complete");
+  const activeProjects = getAllPosts("Active-Under-Contract");
+  const projects = [...homeCompleteProjects, ...activeProjects]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
     <Container>
