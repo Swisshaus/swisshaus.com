@@ -9,8 +9,8 @@ export function StaticHeroSection() {
           <Link href="/posts/pr7">
             <div className="relative w-full h-full">
               <Image
-                src="/assets/blog/pr7/Framing-PR7-1900.jpg"
-                alt="Custom Home For Sale"
+                src="/assets/blog/pr7/Finish/webp_converted/PWN00747.webp"
+                alt="Completed Custom Home in Porter Ranch Reserve"
                 fill
                 priority
                 className="object-cover"
@@ -18,7 +18,7 @@ export function StaticHeroSection() {
               <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/40 flex items-end">
                 <div className="w-full px-5 pb-12">
                   <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-3xl">
-                    New Custom Home For Sale
+                    Porter Ranch 7
                   </h1>
                 </div>
               </div>
@@ -48,11 +48,11 @@ export function StaticHeroSection() {
               <p><b>Garage Spaces:</b> 3</p>
             </div>
           </div>
-          <Link 
-            href="/posts/pr7" 
+          <Link
+            href="/posts/pr7"
             className="inline-block px-6 py-3 bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors"
           >
-            View Details and Progress
+            View Completed Project
           </Link>
         </div>
       </div>

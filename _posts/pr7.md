@@ -1,16 +1,16 @@
 ---
 title: "Porter Ranch 7"
-excerpt: "New Custom Home build for sale. Breaking ground April 2025"
+excerpt: "Completed custom home built in Porter Ranch Reserve. A modern ranch showcasing our craftsmanship and attention to detail."
 coverImage: "/assets/blog/pr7/pr7-1.jpg"
 date: "2025-04-11T05:35:07.322Z"
-category: "Active-Under-Contract"
+category: "Home-Complete"
 author:
   name: Kevin Arnold
   picture: "/assets/blog/authors/kevin.png"
 ogImage:
   url: "/assets/blog/pr7/pr7-1.jpg"
 ---
-## Property Highlights
+## Project Highlights
 
 * **Address:** [164 Porter Ranch Rd., Kalispell MT 59901](https://www.google.com/maps/place/Porter+Rnch+Rd,+Montana+59901/@48.117061,-114.2034646,827m/data=!3m2!1e3!4b1!4m6!3m5!1s0x536652ff4fda7c9f:0x861adbabb2e9e8fc!8m2!3d48.117061!4d-114.2008843!16s%2Fg%2F11w3y0d55v?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D)
 * **Neighborhood:** [Porter Ranch Reserve](/posts/porterranch.md)
@@ -18,7 +18,7 @@ ogImage:
 * **Square Footage:** 3,489 ft²
 * **Property Size:** 5 acres
 * **Layout:** 4 Bedrooms, 3.5 Bathrooms, 3-Car Garage
-* **Estimated Completion:** December 2025
+* **Completed:** November 2025
 
 ![October 2025 custom home construction progress in Kalispell Montana](/assets/blog/pr7/October/webp_converted/PWN00668.webp)
 ![Custom home building process Montana Flathead Valley](/assets/blog/pr7/September/PR7-September-9.webp)
@@ -27,13 +27,13 @@ ogImage:
 ![Lot 7 Exploded View of Floorplan](/assets/blog/pr7/ExplodedElevation.gif)
 ![Kalispell New Custom Home](/assets/blog/pr7/pr7-3.JPG)
 ![Kalispell Lower Valley New Home Builder](/assets/blog/pr7/pr7-2.JPG)
-## Property Overview
+## Project Overview
 
-This custom home is situated on a beautiful 5-acre lot in the [Porter Ranch Reserve](/posts/porterranch.md). Featuring modern design with timeless craftsmanship, this 4-bedroom, 3.5-bathroom residence offers panoramic mountain views and luxurious living spaces.
+We built this custom home on a beautiful 5-acre lot in the [Porter Ranch Reserve](/posts/porterranch.md). Featuring modern design with timeless craftsmanship, this 4-bedroom, 3.5-bathroom residence showcases panoramic mountain views and luxurious living spaces.
 
 The open floor plan creates a seamless flow between the gourmet kitchen, dining area, and great room. Large windows throughout capture natural light and showcase the stunning mountains and open protected land.
 
-Construction began in April 2025 with an estimated move-in ready date of November 2025.
+Construction began in April 2025 and was completed in November 2025.
 
 ## Key Features
 
@@ -50,16 +50,29 @@ Construction began in April 2025 with an estimated move-in ready date of Novembe
 
 ## Construction Timeline
 
-**Breaking Ground:** April 2025  
-**Framing Complete:** June 2025  
-**Exterior Finishes Complete:** August 2025  
-**Interior Finishes Complete:** October 2025  
-**Estimated Completion:** November 2025
+**Breaking Ground:** April 2025
 
-*Contact our sales team to secure this property during pre-construction for customization options.*
+**Framing Complete:** June 2025
+
+**Exterior Finishes Complete:** August 2025
+
+**Interior Finishes Complete:** October 2025
+
+**Completion:** November 2025
 
 **Progress**
 ---
+**Finish Photos**
+![Completed custom home exterior Kalispell Montana](/assets/blog/pr7/Finish/webp_converted/PWN00723.webp)
+![Finished custom home front entrance Porter Ranch](/assets/blog/pr7/Finish/webp_converted/PWN00724.webp)
+![Custom home interior finished living room Kalispell](/assets/blog/pr7/Finish/webp_converted/PWN00726.webp)
+![Completed kitchen custom home Montana](/assets/blog/pr7/Finish/webp_converted/PWN00741.webp)
+![Finished custom home kitchen island Flathead Valley](/assets/blog/pr7/Finish/webp_converted/PWN00747.webp)
+![Finished custom home hallway Montana builder](/assets/blog/pr7/Finish/webp_converted/PWN00765.webp)
+![Custom home completed laundry room Kalispell](/assets/blog/pr7/Finish/webp_converted/PWN00779.webp)
+![Finished custom home exterior view Porter Ranch](/assets/blog/pr7/Finish/webp_converted/PWN00782.webp)
+
+**October Progress**
 ![October 2025 custom home exterior progress Kalispell Montana](/assets/blog/pr7/October/webp_converted/PWN006800.webp)
 ![October 2025 custom home construction updates Montana builder](/assets/blog/pr7/October/webp_converted/PWN00691.webp)
 ![October 2025 new construction home finishing work Kalispell](/assets/blog/pr7/October/webp_converted/PWN00692.webp)

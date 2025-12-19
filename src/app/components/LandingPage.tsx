@@ -20,10 +20,10 @@ type LandingPageProps = {
 const defaultSlides: SlideData[] = [
   {
     image: '/assets/blog/pr7/pr7-1.jpg',
-    title: 'New Custom Home for Sale in Kalispell',
-    subtitle: 'See photos and build progress',
+    title: 'Completed Custom Home in Porter Ranch Reserve',
+    subtitle: 'View this finished project showcasing our craftsmanship',
     link: '/posts/pr7',
-    linkText: 'Learn More'
+    linkText: 'View Project'
   },
   {
     image: '/assets/blog/Lidstrom/AlpineB.JPG',
