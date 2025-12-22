@@ -76,7 +76,7 @@ export default function Contact() {
         <div className="w-full max-w-2xl">
                  <div className="grid md:grid-cols-2"> 
                   <p className="font-bold text-lg text-center mb-12">
-                      Phone: <a href="tel:+14064075072" className="text-red-600 hover:underline">406-407-5072</a>
+                      Phone: <a href="tel:+14065005075" className="text-red-600 hover:underline">406.500.5075</a>
                   </p>
                   <p className="font-bold text-lg text-center mb-12">
                       Email: <a href="mailto:Office@swisshaus.com" className="text-red-600 hover:underline">Office@swisshaus.com</a>

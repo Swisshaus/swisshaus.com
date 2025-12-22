@@ -39,7 +39,7 @@ export default function About() {
       "latitude": 48.1919889,
       "longitude": -114.3168131
     },
-    "telephone": "+14064075072",
+    "telephone": "+14065005075",
     "email": "office@swisshaus.com",
     "sameAs": [
       "https://www.houzz.com/pro/swisshausmt/swisshaus"

@@ -13,7 +13,7 @@ export function Footer() {
       <Container>
         <div className="py-10 flex flex-col lg:flex-row items-center">
           <h3 className="text-2xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            <a href="mailto:office@swisshaus.com" className="hover:underline">office@swisshaus.com</a> | <a href="tel:4064075072" className="hover:underline">406.407.5072</a>
+            <a href="mailto:office@swisshaus.com" className="hover:underline">office@swisshaus.com</a> | <a href="tel:4065005075" className="hover:underline">406.500.5075</a>
           </h3>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
